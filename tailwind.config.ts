@@ -8,6 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        oscillate: {
+          "0%, 100%": { transform: "translateX(0)" },
+          "50%": { transform: "translateY(20px)" },
+        },
+      },
+      animation: {
+        oscillate: "oscillate 2s ease-in-out infinite",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
@@ -16,4 +25,5 @@ const config: Config = {
   },
   plugins: [],
 };
+
 export default config;
