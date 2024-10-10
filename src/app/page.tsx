@@ -109,12 +109,13 @@ export default function Home() {
         <div className="w-[90vw] md:w-full  md:max-w-7xl mx-auto flex flex-col pt-20 pb-10 md:pb-[10rem] lg:flex-row lg:items-center justify-center gap-8">
           <div className="lg:w-1/2">
             <h1 className="text-3xl md:text-5xl font-bold text-white mb-6">
-              Welcome to Concrete Technologies.
+              Welcome to Concreate Technologies.
             </h1>
             <p className="text-[1rem] md:text-[1.2rem] text-white text-justify mt-10">
-              Concreate Technologies, formerly known as Atrillu Private Limited,
-              was established in 2018 as a professional services and consulting
-              firm with a strong focus on the TMT and Tech sector.
+              Concreate Technologies - cobranded by vivly, formerly known as
+              Atrillu Private Limited, was established in 2018 as a professional
+              services and consulting firm with a strong focus on the TMT and
+              Tech sector.
             </p>
             <p className="text-[1rem] md:text-[1.2rem] text-white text-justify mt-2">
               We deliver innovative technology transformation and consulting
@@ -162,25 +163,29 @@ export default function Home() {
           </h2>
           <div className="flex flex-col lg:flex-row justify-center items-center gap-5 mx-auto">
             <div className="flex flex-col justify-center items-center text-left lg:w-1/2">
-              <p className="text-[1rem] md:text-[1.1rem] text-justify text-white mt-5 md:mt-10">
-                Tab Enterprise offers flexible Service Delivery Models tailored
-                to different business needs. One model is the Time & Material
-                (T&M) Basis, which adjusts services to meet specific goals. This
-                allows businesses to customize service delivery and respond to
-                changing requirements.
+              <p className="text-[1rem] md:text-[1.1rem] text-justify text-white border-white border-2 p-2 rounded-lg mt-5 md:mt-10">
+                <span className="block border-b border-white w-fit">
+                  Service Delivery
+                </span>
+                Our consulting service line is flexible to deliver in various
+                operating model to meet your business objectives and drive the
+                outcomes.
               </p>
-              <p className="text-[1rem] md:text-[1.1rem] text-justify text-white mt-10">
-                The Outcome-Based model provides two key options: Service
-                Delivery and BOT (Build-Operate-Transfer). Service Delivery
-                adapts to various operating models to achieve desired results,
-                while BOT focuses on talent development, financial management,
-                and project optimization for seamless operations.
+              <p className="text-[1rem] md:text-[1.1rem] text-justify text-white border-white border-2 p-2 rounded-lg mt-10">
+                <span className="block border-b border-white w-fit">
+                  BOT (Loan Staff)
+                </span>
+                Delivering Build-Operate-Transfer solutions talent development,
+                financial management, and OPEX/CAPEX optimization, for seamless
+                project execution.
               </p>
-              <p className="text-[1rem] md:text-[1.1rem] text-justify text-white mt-10">
-                Finally, Market Exposure draws on the team's 125+ years of
-                experience across industries like finance, IT, manufacturing,
-                and oil and gas, helping businesses expand into new markets and
-                drive growth.
+              <p className="text-[1rem] md:text-[1.1rem] text-justify text-white border-white border-2 p-2 rounded-lg mt-10">
+                <span className="block border-b border-white w-fit">
+                  Market Exposure
+                </span>
+                With our strong 125+ years of collective experience across
+                sectors like financial services, manufacturing, IT services, Oil
+                and Gas; we help out clients in creating new markets.
               </p>
             </div>
             <img
@@ -191,7 +196,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      {/* 
       <section id="clients" className="bg-gray-100 px-4 py-10 md:py-20">
         <div className="w-full  md:max-w-7xl mx-auto text-center">
           <h2 className="text-3xl md:text-6xl font-bold mb-10 text-black">
@@ -205,7 +210,7 @@ export default function Home() {
             />
           </div>
         </div>
-      </section>
+      </section> */}
 
       <footer id="contact" className="bg-gray-800 text-white px-4 py-10">
         <div className="w-full  md:max-w-7xl mx-auto text-center">
