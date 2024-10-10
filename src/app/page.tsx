@@ -112,11 +112,11 @@ export default function Home() {
               Welcome to Concreate Technologies.
             </h1>
             <p className="text-[1rem] md:text-[1.2rem] text-white text-justify mt-10">
-              Concreate Technologies - cobranded by{" "}
-              <span className="font-bold">vivly</span>, formerly known as
-              Atrillu Private Limited, was established in 2018 as a professional
-              services and consulting firm with a strong focus on the TMT and
-              Tech sector.
+              Concreate Technologies -{" "}
+              <span className="font-bold">cobranded by vivly</span>, formerly
+              known as Atrillu Private Limited, was established in 2018 as a
+              professional services and consulting firm with a strong focus on
+              the TMT and Tech sector.
             </p>
             <p className="text-[1rem] md:text-[1.2rem] text-white text-justify mt-2">
               We deliver innovative technology transformation and consulting
@@ -222,7 +222,7 @@ export default function Home() {
               vg@vivly.in
             </a>
           </p>
-          <p>&copy; 2024 Concrete Technologies Private Limited</p>
+          <p>&copy; 2024 Concreate Technologies Private Limited</p>
         </div>
       </footer>
     </div>
