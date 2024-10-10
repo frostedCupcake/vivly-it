@@ -11,7 +11,7 @@ export default function Home() {
             <img
               src="/assets/vivly.png"
               alt="vivly brand logo"
-              className="w-[2rem] md:w-[4rem] mx-auto rounded-xl "
+              className="w-[2rem] md:w-[3rem] mx-auto rounded-xl "
             />
           </div>
 
