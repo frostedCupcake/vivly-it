@@ -56,11 +56,11 @@ export default function Home() {
                 Delivery Models
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#clients" className="hover:underline">
                 Clients
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#contact" className="hover:underline">
                 Contact
