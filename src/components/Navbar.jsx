@@ -44,6 +44,11 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">
           <li>
+            <a href="/" className="hover:underline">
+              Home
+            </a>
+          </li>
+          <li>
             <a href="/engineering-services" className="hover:underline">
               Engineering Services
             </a>
@@ -68,6 +73,11 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden">
           <ul className="flex flex-col space-y-4 px-4 py-6">
+            <li>
+              <a href="/" className="hover:underline">
+                Home
+              </a>
+            </li>
             <li>
               <a href="/engineering-services" className="hover:underline">
                 Engineering Services
