@@ -1,163 +1,102 @@
 "use client";
 import React, { useState } from "react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import { IoIosArrowForward } from "react-icons/io";
 
 export default function Home() {
-  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="min-h-screen">
-      <nav className="bg-[#477F8E]/90 text-white fixed top-0 left-0 w-full z-10">
-        <div className="max-w-7xl mx-auto flex justify-between items-center py-4 px-4 md:px-10">
-          <div className="text-xl md:text-2xl font-bold">
-            <img
-              src="/assets/vivly.png"
-              alt="vivly brand logo"
-              className="w-[2rem] md:w-[3rem] mx-auto rounded-xl "
-            />
-          </div>
-
-          <div className="md:hidden">
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-              className="focus:outline-none"
-            >
-              <svg
-                className="w-6 h-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d={
-                    isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"
-                  }
-                ></path>
-              </svg>
-            </button>
-          </div>
-
-          {/* Desktop Menu */}
-          <ul className="hidden md:flex space-x-6">
-            <li>
-              <a href="#welcome" className="hover:underline">
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="#services" className="hover:underline">
-                Services
-              </a>
-            </li>
-            <li>
-              <a href="#delivery-models" className="hover:underline">
-                Delivery Models
-              </a>
-            </li>
-            {/* <li>
-              <a href="#clients" className="hover:underline">
-                Clients
-              </a>
-            </li> */}
-            <li>
-              <a href="#contact" className="hover:underline">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        {isOpen && (
-          <div className="md:hidden">
-            <ul className="flex flex-col space-y-4 px-4 py-6">
-              <li>
-                <a href="#welcome" className="hover:underline">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="#services" className="hover:underline">
-                  Services
-                </a>
-              </li>
-              <li>
-                <a href="#delivery-models" className="hover:underline">
-                  Delivery Models
-                </a>
-              </li>
-              {/* <li>
-                <a href="#clients" className="hover:underline">
-                  Clients
-                </a>
-              </li> */}
-              <li>
-                <a href="#contact" className="hover:underline">
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-        )}
-      </nav>
-
+      <Navbar />
       <section
         id="welcome"
-        className="relative bg-[#477F8E]/90 px-4 md: pt-5 lg:pt-28"
+        className="relative bg-black px-4 md: pt-5 lg:pt-28"
       >
-        <div className="w-[90vw] md:w-full  md:max-w-7xl mx-auto flex flex-col pt-20 pb-10 md:pb-[10rem] lg:flex-row lg:items-center justify-center gap-8">
-          <div className="lg:w-1/2">
+        <div className="w-[80vw] mx-auto flex flex-col pt-20 pb-10 md:pb-[10rem] lg:flex-row lg:items-center justify-center">
+          <div className="w-full lg:w-[40rem]">
             <h1 className="text-3xl md:text-5xl font-bold text-white mb-6">
-              Welcome to Concreate Technologies.
+              Welcome to Vivly.
             </h1>
-            <p className="text-[1rem] md:text-[1.2rem] text-white text-justify mt-10">
-              Concreate Technologies -{" "}
-              <span className="font-bold">cobranded by vivly</span>, formerly
-              known as Atrillu Private Limited, was established in 2018 as a
-              professional services and consulting firm with a strong focus on
-              the TMT and Tech sector.
+            {/* <p className="text-[1rem] md:text-[1.2rem] text-white text-left mt-10">
+              <span className="font-bold"> vivly</span>, formerly known as
+              Atrillu Private Limited, was established in 2018 as a professional
+              services and consulting firm with a strong focus on the TMT and
+              Tech sector.
+            </p> */}
+            <p className="text-[1rem] md:text-[1.2rem] text-white text-left mt-2">
+              Your one stop destination for strategic software solutions.
             </p>
-            <p className="text-[1rem] md:text-[1.2rem] text-white text-justify mt-2">
-              We deliver innovative technology transformation and consulting
-              services for global clients with a focus on excellence and smart
-              outcomes.
-            </p>
+            <div className="flex flex-col md:flex-row md:gap-5">
+              <a href="/engineering-services">
+                <button className="hover:-translate-y-1 transition-all text-[.8rem] md:text-[.9rem] w-[16rem] mt-5 md:mt-10 bg-white text-black rounded-xl px-4 py-2 flex items-center gap-2">
+                  Engineering Solutions
+                  <IoIosArrowForward />
+                </button>
+              </a>
+              <a href="/offshoring-&-consulting">
+                <button className="hover:-translate-y-1 transition-all text-[.8rem] md:text-[.9rem] w-[16rem] mt-2 md:mt-10 bg-white text-black rounded-xl px-4 py-2 flex items-center gap-2">
+                  Offshoring and Consulting
+                  <IoIosArrowForward />
+                </button>
+              </a>
+            </div>
           </div>
-          <div className="lg:w-1/2 mx-auto">
+          <div className="w-1/3 ml-auto">
             <img
               src="/assets/vivly.png"
               alt="vivly brand logo"
-              className="w-[10rem]  hidden md:block  md:w-[20rem] mx-auto rounded-xl shadow-xl animate-oscillate"
+              className="w-[10rem]  hidden md:block  md:w-[20rem] ml-auto rounded-xl shadow-xl animate-oscillate"
             />
           </div>
         </div>
       </section>
+      <hr className="w-[90vw] tet text-white/30 mx-auto pb-5" />
 
-      <section id="services" className="bg-gray-100 px-4 py-10 md:py-20 h-auto">
-        <div className="w-full  md:max-w-7xl mx-auto text-center">
-          <h2 className="text-3xl md:text-6xl font-bold mb-10 text-black">
-            Service Lines
-          </h2>
-          <div className="flex flex-col md:flex-row gap-5 mx-auto">
-            <img
-              src="/assets/IT-consulting.png"
-              alt="IT Consulting"
-              className="w-[90vw] md:w-[45vw]  shadow-xl rounded-xl mx-auto"
-            />
-            <img
-              src="/assets/TT-services.png"
-              alt="TT Services"
-              className="w-[90vw] md:w-[45vw]  shadow-xl rounded-xl mx-auto"
-            />
+      <section className="relative bg-black px-4 md:py-5 lg:py-28 ">
+        <div className="w-[80vw] flex flex-col gap-2 mx-auto">
+          <h1 className="text-3xl md:text-5xl font-bold text-white mb-6">
+            At Vivly, we Engineer Solutions and Power Growth Through Offshoring{" "}
+          </h1>
+          {/* <p className="text-[1rem] flex flex-col gap-4 md:text-[1.2rem] text-white text-left mt-10">
+            <span className="text-[1rem] md:text-[1.5rem] font-medium text-white text-left mt-2">
+              {" "}
+              We believe in our three step approach:
+            </span>
+            Observe - We shadow your team
+          </p>
+          <p className="text-[1rem] md:text-[1.2rem] text-white text-left mt-2">
+            Analyze - Assess the problem statements
+          </p>
+          <p className="text-[1rem] md:text-[1.2rem] text-white text-left mt-2">
+            Build - Deliver custom made solutions specific to your problems
+          </p> */}
+          <div className="bg-gray-800 mt-5 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <h2 className="text-xl font-semibold text-white mb-4">Observe</h2>
+            <p className="text-white text-[1rem] leading-relaxed">
+              We shadow your team to understand workflows, challenges, and
+              opportunities.
+            </p>
+          </div>
+
+          <div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <h2 className="text-xl font-semibold text-white mb-4">Analyze</h2>
+            <p className="text-white text-[1rem] leading-relaxed">
+              Assess the problem statements to identify gaps and areas for
+              improvement.
+            </p>
+          </div>
+
+          <div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <h2 className="text-xl font-semibold text-white mb-4">Build</h2>
+            <p className="text-white text-[1rem] leading-relaxed">
+              Deliver custom-made solutions specific to your problems, ensuring
+              scalability and efficiency.
+            </p>
           </div>
         </div>
       </section>
 
-      <section
-        id="delivery-models"
-        className="bg-[#477F8E]/90 px-4 py-10 md:py-20"
-      >
+      {/* <section id="delivery-models" className="bg-black px-4 py-10 md:py-20">
         <div className="w-full  md:max-w-7xl mx-auto text-center">
           <h2 className="text-3xl md:text-6xl font-bold mb-10 text-white">
             Service Delivery Models
@@ -196,9 +135,9 @@ export default function Home() {
             />
           </div>
         </div>
-      </section>
+      </section> */}
       {/* 
-      <section id="clients" className="bg-gray-100 px-4 py-10 md:py-20">
+      <section id="clients" className="bg-black px-4 py-10 md:py-20">
         <div className="w-full  md:max-w-7xl mx-auto text-center">
           <h2 className="text-3xl md:text-6xl font-bold mb-10 text-black">
             We have previously worked with
@@ -212,19 +151,7 @@ export default function Home() {
           </div>
         </div>
       </section> */}
-
-      <footer id="contact" className="bg-gray-800 text-white px-4 py-10">
-        <div className="w-full  md:max-w-7xl mx-auto text-center">
-          <h3 className="text-lg md:text-xl font-bold">Contact Us</h3>
-          <p>
-            Email:{" "}
-            <a href="mailto:vg@vivly.in" className="underline">
-              vg@vivly.in
-            </a>
-          </p>
-          <p>&copy; 2024 Concreate Technologies Private Limited</p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
