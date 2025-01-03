@@ -33,7 +33,7 @@ const Footer = () => {
             Offshoring & Consulting
           </a>
           <a
-            href="#contact"
+            href="/contact-us"
             className="hover:text-gray-400 transition duration-300"
           >
             Contact Us
