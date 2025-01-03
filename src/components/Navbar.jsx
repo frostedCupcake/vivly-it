@@ -60,7 +60,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="#contact"
+              href="/contact-us"
               className="bg-white text-black rounded-xl px-3 py-1 flex items-center gap-2"
             >
               Reach Out to Us
