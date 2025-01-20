@@ -5,11 +5,13 @@ const Deck = () => {
   return (
     <section className="relative bg-black px-4 py-5 lg:py-10">
       <div className="w-full lg:w-[80vw] flex flex-col gap-6 mx-auto">
-        <h1 className="text-3xl md:text-5xl font-bold text-white mb-6"></h1>
+        <h1 className="text-[1.4rem] text-center md:text-left md:text-5xl font-bold text-white mb-6"></h1>
 
         {/* Carbon Earth */}
         <div className="mt-5 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300  text-white">
-          <h1 className="text-3xl md:text-5xl font-bold mb-10">Carbon Earth</h1>
+          <h1 className="text-[1.4rem] text-center md:text-left md:text-5xl font-bold mb-10">
+            Carbon Earth
+          </h1>
           <Card
             imageUrl="https://www.carbon.earth/assets/logo.png"
             websiteLink="https://www.carbon.earth/"
@@ -21,7 +23,7 @@ const Deck = () => {
 
         {/* Ticketing Solutions */}
         <div className="mt-5 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300  text-white">
-          <h1 className="text-3xl md:text-5xl font-bold mb-10">
+          <h1 className="text-[1.4rem] text-center md:text-left md:text-5xl font-bold mb-10">
             Ticketing Solutions
           </h1>
           <div className="flex flex-col lg:flex-row items-center justify-center gap-6">
@@ -50,7 +52,7 @@ const Deck = () => {
 
         {/* Influencer Marketing Platform */}
         <div className="mt-5 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300  text-white">
-          <h1 className="text-3xl md:text-5xl font-bold mb-10">
+          <h1 className="text-[1.4rem] text-center md:text-left md:text-5xl font-bold mb-10">
             Influencer Marketing Platform
           </h1>
           <Card
@@ -65,7 +67,7 @@ const Deck = () => {
 
         {/* PinkList India */}
         <div className="mt-5 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300  text-white">
-          <h1 className="text-3xl md:text-5xl font-bold mb-10">
+          <h1 className="text-[1.4rem] text-center md:text-left md:text-5xl font-bold mb-10">
             PinkList India
           </h1>
           <Card
@@ -79,7 +81,7 @@ const Deck = () => {
 
         {/* Ad Tracking Tool */}
         <div className="mt-5 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300  text-white">
-          <h1 className="text-3xl md:text-5xl font-bold mb-10">
+          <h1 className="text-[1.4rem] text-center md:text-left md:text-5xl font-bold mb-10">
             Ad Tracking Tool
           </h1>
           <div className="flex flex-col lg:flex-row items-center justify-center gap-6">
@@ -107,7 +109,7 @@ const Deck = () => {
 
         {/* Automated Marketing Mixed Modeling */}
         <div className="mt-5 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300  text-white">
-          <h1 className="text-3xl md:text-5xl font-bold mb-10">
+          <h1 className="text-[1.4rem] text-center md:text-left md:text-5xl font-bold mb-10">
             Automated Marketing Mixed Modeling
           </h1>
           <div className="flex flex-col lg:flex-row items-center justify-center gap-6">

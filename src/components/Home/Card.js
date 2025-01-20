@@ -16,7 +16,7 @@ const Card = ({
         <img
           src={imageUrl}
           alt="Card Image"
-          className={`w-full lg:w-[15rem] ${
+          className={`w-[80%] lg:w-[15rem] ${
             big == "true" ? "lg:w-[20rem]" : ""
           } rounded-xl`}
         />

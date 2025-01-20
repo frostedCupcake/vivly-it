@@ -76,7 +76,7 @@ const page = () => {
 
       {/* Intro Section */}
       <section className="py-10  md:py-20 md:px-10">
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="w-[95vw] md:w-[55rem] mx-auto text-center">
           <p className=" text-[.9rem] md:text-xl italic leading-relaxed">
             Our collaborative approach ensures that we work closely with our
             clients to understand their specific needs and develop customised
@@ -98,9 +98,9 @@ const page = () => {
               {techServices.map((service) => (
                 <li
                   key={service}
-                  className={`cursor-pointer text-lg transition-colors duration-300 ${
+                  className={`cursor-pointer text-white md:text-gray-400 text-lg transition-colors duration-300 ${
                     hovered1 === service
-                      ? "text-white font-bold"
+                      ? "md:text-white font-nomal md:font-bold"
                       : "text-gray-400"
                   }`}
                   onMouseEnter={() => setHovered1(service)}
@@ -135,9 +135,9 @@ const page = () => {
               {consultingServices.map((service) => (
                 <li
                   key={service}
-                  className={`cursor-pointer w-fit text-lg transition-colors duration-300 ${
+                  className={`cursor-pointer w-fit text-white md:text-gray-400 text-lg transition-colors duration-300 ${
                     hovered2 === service
-                      ? "text-white font-bold"
+                      ? "md:text-white font-nomal md:font-bold"
                       : "text-gray-400"
                   }`}
                   onMouseEnter={() => setHovered2(service)}
