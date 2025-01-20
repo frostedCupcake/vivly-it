@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from "react";
 import { MdArrowOutward } from "react-icons/md";
 
@@ -44,26 +45,22 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">
           <li>
-            <a href="/" className="hover:underline">
-              Home
+            <a href="/portfolio" className="hover:underline">
+              Portfolio
             </a>
           </li>
-          <li>
-            <a href="/engineering-services" className="hover:underline">
-              Engineering Services
-            </a>
-          </li>
-          <li>
+
+          {/* <li>
             <a href="/offshoring-&-consulting" className="hover:underline">
-              Offshoring & Consulting
+              Services
             </a>
-          </li>
+          </li> */}
           <li>
             <a
               href="/contact-us"
               className="bg-white text-black rounded-xl px-3 py-1 flex items-center gap-2"
             >
-              Reach Out to Us
+              Connect with Us
               <MdArrowOutward />
             </a>
           </li>
@@ -74,23 +71,23 @@ const Navbar = () => {
         <div className="md:hidden">
           <ul className="flex flex-col space-y-4 px-4 py-6">
             <li>
-              <a href="/" className="hover:underline">
-                Home
+              <a href="/portfolio" className="hover:underline">
+                Portfolio
               </a>
             </li>
-            <li>
-              <a href="/engineering-services" className="hover:underline">
-                Engineering Services
-              </a>
-            </li>
-            <li>
+
+            {/* <li>
               <a href="/offshoring-&-consulting" className="hover:underline">
-                Offshoring & Consulting
+                Services
               </a>
-            </li>
+            </li> */}
             <li>
-              <a href="#contact" className="hover:underline">
-                Contact
+              <a
+                href="/contact-us"
+                className="bg-white text-black rounded-xl px-3 py-1 flex items-center gap-2"
+              >
+                Connect with Us
+                <MdArrowOutward />
               </a>
             </li>
           </ul>

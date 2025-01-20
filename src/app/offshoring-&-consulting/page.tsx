@@ -25,6 +25,37 @@ const page = () => {
           </div>
         </div>
       </div>
+      <section className="relative bg-black px-4 py-5 lg:py-28 ">
+        <div className="w-[80vw] flex flex-col gap-2 mx-auto">
+          <h1 className="text-3xl md:text-5xl font-bold text-white mb-6">
+            At Vivly, we Engineer Solutions and Power Growth Through Offshoring{" "}
+          </h1>
+
+          <div className="bg-gray-800 mt-5 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <h2 className="text-xl font-semibold text-white mb-4">Observe</h2>
+            <p className="text-white text-[1rem] leading-relaxed">
+              We shadow your team to understand workflows, challenges, and
+              opportunities.
+            </p>
+          </div>
+
+          <div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <h2 className="text-xl font-semibold text-white mb-4">Analyze</h2>
+            <p className="text-white text-[1rem] leading-relaxed">
+              Assess the problem statements to identify gaps and areas for
+              improvement.
+            </p>
+          </div>
+
+          <div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <h2 className="text-xl font-semibold text-white mb-4">Build</h2>
+            <p className="text-white text-[1rem] leading-relaxed">
+              Deliver custom-made solutions specific to your problems, ensuring
+              scalability and efficiency.
+            </p>
+          </div>
+        </div>
+      </section>
       <section id="delivery-models" className="bg-black px-4 py-10 md:py-20">
         <div className="w-full  md:max-w-7xl mx-auto text-center">
           <h2 className="text-3xl md:text-6xl font-bold mb-10 text-white">

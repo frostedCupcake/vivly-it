@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { MdArrowOutward } from "react-icons/md";
 
 const Footer = () => {
   return (
@@ -17,7 +18,7 @@ const Footer = () => {
 
         {/* Navigation Links */}
         <div className="flex flex-col items-center md:items-start gap-2 text-sm">
-          <a href="/" className="hover:text-gray-400 transition duration-300">
+          {/* <a href="/" className="hover:text-gray-400 transition duration-300">
             Home
           </a>
           <a
@@ -25,18 +26,25 @@ const Footer = () => {
             className="hover:text-gray-400 transition duration-300"
           >
             Engineering Services
-          </a>
+          </a> */}
           <a
+            href="/portfolio"
+            className="hover:text-gray-400 transition duration-300"
+          >
+            Portfolio
+          </a>
+          {/* <a
             href="/offshoring-&-consulting"
             className="hover:text-gray-400 transition duration-300"
           >
             Offshoring & Consulting
-          </a>
+          </a> */}
           <a
             href="/contact-us"
-            className="hover:text-gray-400 transition duration-300"
+            className="bg-white text-black rounded-xl px-3 py-1 flex items-center gap-2"
           >
-            Contact Us
+            Connect with Us
+            <MdArrowOutward />
           </a>
         </div>
 
