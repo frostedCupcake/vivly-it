@@ -4,7 +4,8 @@ import Navbar from "@/components/Navbar";
 import React, { useState } from "react";
 
 const page = () => {
-  const [hovered, setHovered] = useState<string | null>(null);
+  const [hovered1, setHovered1] = useState<string | null>(null);
+  const [hovered2, setHovered2] = useState<string | null>(null);
 
   const techServices = [
     "Custom Software Development",
@@ -88,50 +89,87 @@ const page = () => {
       </section>
 
       {/* Our Process */}
-      <section className="py-10 px-6 md:py-20 md:px-10 ">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-5xl font-bold text-center mb-12">
-            At Vivly, we Engineer Solutions and Power Growth
-          </h2>
+      <section className="py-10 px-6 md:py-10 md:px-10">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+          {/* Technology Services */}
+          <div>
+            <h2 className="text-3xl font-bold mb-6">Technology Services</h2>
+            <ul className="space-y-4">
+              {techServices.map((service) => (
+                <li
+                  key={service}
+                  className={`cursor-pointer text-lg transition-colors duration-300 ${
+                    hovered1 === service
+                      ? "text-white font-bold"
+                      : "text-gray-400"
+                  }`}
+                  onMouseEnter={() => setHovered1(service)}
+                  //   onMouseLeave={() => setHovered(null)}
+                >
+                  {service}
+                </li>
+              ))}
+            </ul>
+          </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              {
-                title: "Observe",
-                content:
-                  "We shadow your team to understand workflows, challenges, and opportunities.",
-              },
-              {
-                title: "Analyze",
-                content:
-                  "Assess the problem statements to identify gaps and areas for improvement.",
-              },
-              {
-                title: "Build",
-                content:
-                  "Deliver custom-made solutions specific to your problems, ensuring scalability and efficiency.",
-              },
-            ].map((step, index) => (
-              <div
-                key={index}
-                className="bg-black border border-white p-6 rounded-lg shadow-lg hover:scale-105 transform transition duration-300"
-              >
-                <h3 className="text-xl font-semibold mb-4">{step.title}</h3>
-                <p className="leading-relaxed text-base">{step.content}</p>
-              </div>
-            ))}
+          {/* Highlighted Service */}
+          <div className="hidden md:block">
+            <h3 className="text-2xl font-semibold mb-4">
+              {hovered1 || "Hover over a service to see details"}
+            </h3>
+            <p className="leading-relaxed text-lg">
+              {descriptions[hovered1 ?? ""] ||
+                "Hover over a service to view its description."}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Consulting Services */}
+      <section className="py-10 px-6 md:px-10">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+          {/* Consulting Services */}
+          <div>
+            <h2 className="text-3xl font-bold mb-6">Consulting Services</h2>
+            <ul className="space-y-4">
+              {consultingServices.map((service) => (
+                <li
+                  key={service}
+                  className={`cursor-pointer w-fit text-lg transition-colors duration-300 ${
+                    hovered2 === service
+                      ? "text-white font-bold"
+                      : "text-gray-400"
+                  }`}
+                  onMouseEnter={() => setHovered2(service)}
+                  //   onMouseLeave={() => setHovered(null)}
+                >
+                  {service}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Highlighted Service */}
+          <div className="hidden md:block">
+            <h3 className="text-2xl font-semibold mb-4">
+              {hovered2 || "Hover over a service to see details"}
+            </h3>
+            <p className="leading-relaxed text-lg">
+              {descriptions[hovered2 ?? ""] ||
+                "Hover over a service to view its description."}
+            </p>
           </div>
         </div>
       </section>
 
       {/* Service Delivery Models */}
-      <section className="py-10 px-6 md:py-20 md:px-10">
+      <section className="py-10 px-6 md:py-10 md:px-10">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-bold text-center mb-12">
             Service Delivery Models
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
               {
                 title: "Service Delivery",
@@ -139,14 +177,9 @@ const page = () => {
                   "Our consulting service line is flexible to deliver in various operating models to meet your business objectives and drive outcomes.",
               },
               {
-                title: "BOT (Loan Staff)",
+                title: "BOT (Staff Arugumentation)",
                 content:
                   "Delivering Build-Operate-Transfer solutions, talent development, financial management, and OPEX/CAPEX optimization for seamless project execution.",
-              },
-              {
-                title: "Market Exposure",
-                content:
-                  "With our strong 125+ years of collective experience across sectors like financial services, manufacturing, IT services, and Oil and Gas, we help our clients create new markets.",
               },
             ].map((model, index) => (
               <div
@@ -162,78 +195,6 @@ const page = () => {
       </section>
 
       {/* Services Section */}
-      <section className="py-10 px-6 md:py-20 md:px-10">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Technology Services */}
-          <div>
-            <h2 className="text-3xl font-bold mb-6">Technology Services</h2>
-            <ul className="space-y-4">
-              {techServices.map((service) => (
-                <li
-                  key={service}
-                  className={`cursor-pointer text-lg transition-colors duration-300 ${
-                    hovered === service
-                      ? "text-white font-bold"
-                      : "text-gray-400"
-                  }`}
-                  onMouseEnter={() => setHovered(service)}
-                  //   onMouseLeave={() => setHovered(null)}
-                >
-                  {service}
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Highlighted Service */}
-          <div className="hidden md:block">
-            <h3 className="text-2xl font-semibold mb-4">
-              {hovered || "Hover over a service to see details"}
-            </h3>
-            <p className="leading-relaxed text-lg">
-              {descriptions[hovered ?? ""] ||
-                "Hover over a service to view its description."}
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Consulting Services */}
-      <section className="py-10 px-6 md:py-20 md:px-10">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Consulting Services */}
-          <div>
-            <h2 className="text-3xl font-bold mb-6">Consulting Services</h2>
-            <ul className="space-y-4">
-              {consultingServices.map((service) => (
-                <li
-                  key={service}
-                  className={`cursor-pointer w-fit text-lg transition-colors duration-300 ${
-                    hovered === service
-                      ? "text-white font-bold"
-                      : "text-gray-400"
-                  }`}
-                  onMouseEnter={() => setHovered(service)}
-                  //   onMouseLeave={() => setHovered(null)}
-                >
-                  {service}
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Highlighted Service */}
-          <div className="hidden md:block">
-            <h3 className="text-2xl font-semibold mb-4">
-              {hovered || "Hover over a service to see details"}
-            </h3>
-            <p className="leading-relaxed text-lg">
-              {descriptions[hovered ?? ""] ||
-                "Hover over a service to view its description."}
-            </p>
-          </div>
-        </div>
-      </section>
 
       <Footer />
     </div>
