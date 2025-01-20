@@ -28,17 +28,18 @@ const Footer = () => {
             Engineering Services
           </a> */}
           <a
+            href="/services"
+            className="hover:text-gray-400 transition duration-300"
+          >
+            Services
+          </a>
+          <a
             href="/portfolio"
             className="hover:text-gray-400 transition duration-300"
           >
             Portfolio
           </a>
-          {/* <a
-            href="/offshoring-&-consulting"
-            className="hover:text-gray-400 transition duration-300"
-          >
-            Offshoring & Consulting
-          </a> */}
+
           <a
             href="/contact-us"
             className="bg-white text-black rounded-xl px-3 py-1 flex items-center gap-2"
@@ -50,7 +51,7 @@ const Footer = () => {
 
         {/* Social Media Icons */}
         <div className="flex justify-center md:justify-start gap-6 mt-6 md:mt-0">
-          <a
+          {/* <a
             href="https://facebook.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -73,7 +74,7 @@ const Footer = () => {
             className="hover:text-gray-400 transition duration-300"
           >
             <FaTwitter size={24} />
-          </a>
+          </a> */}
         </div>
       </div>
 

@@ -8,13 +8,13 @@ const page = () => {
   const [hovered2, setHovered2] = useState<string | null>(null);
 
   const techServices = [
+    "Large Language Models (LLMs)",
+    "AI Agents for Automation",
     "Custom Software Development",
     "Web and Mobile Application Development",
     "Cloud Solutions and Integration",
     "Data Analytics and Business Intelligence",
     "IT Infrastructure Management",
-    "Large Language Models (LLMs)",
-    "AI Agents for Automation",
   ];
 
   const consultingServices = [
@@ -66,9 +66,7 @@ const page = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-black via-black/50 to-black"></div>
         <div className="relative flex items-center justify-center h-full text-center">
           <div>
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">
-              Offshoring & Consulting
-            </h1>
+            <h1 className="text-4xl md:text-6xl font-bold mb-4">Services</h1>
             <div className="w-16 h-1 bg-white mx-auto"></div>
           </div>
         </div>

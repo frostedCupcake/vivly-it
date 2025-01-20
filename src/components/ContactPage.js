@@ -6,7 +6,7 @@ const ContactPage = () => {
     firstName: "",
     lastName: "",
     email: "",
-    topic: "",
+    // topic: "",
     message: "",
     captcha: false,
   });
@@ -50,9 +50,7 @@ const ContactPage = () => {
       formData.lastName &&
       formData.email &&
       !emailError &&
-      formData.topic &&
-      formData.message &&
-      formData.captcha
+      formData.message
     );
   };
 
@@ -60,10 +58,10 @@ const ContactPage = () => {
     e.preventDefault();
     setLoading(true);
 
-    if (!formData.captcha) {
-      alert("Please verify you are not a robot.");
-      return;
-    }
+    // if (!formData.captcha) {
+    //   alert("Please verify you are not a robot.");
+    //   return;
+    // }
 
     try {
       const response = await fetch("/api/sendEmail", {
@@ -81,9 +79,7 @@ const ContactPage = () => {
           firstName: "",
           lastName: "",
           email: "",
-          topic: "",
           message: "",
-          captcha: false,
         });
       } else {
         alert("Failed to send the message. Please try again later.");
@@ -145,7 +141,7 @@ const ContactPage = () => {
                 <p className="text-red-500 text-sm mt-1">{emailError}</p>
               )}
             </div>
-            <div>
+            {/* <div>
               <label className="block text-gray-300 mb-2">Topic *</label>
               <select
                 name="topic"
@@ -161,7 +157,7 @@ const ContactPage = () => {
                   </option>
                 ))}
               </select>
-            </div>
+            </div> */}
             <div>
               <label className="block text-gray-300 mb-2">Message *</label>
               <textarea
@@ -173,7 +169,7 @@ const ContactPage = () => {
                 required
               ></textarea>
             </div>
-            <div className="flex items-center gap-3">
+            {/* <div className="flex items-center gap-3">
               <input
                 type="checkbox"
                 name="captcha"
@@ -182,7 +178,7 @@ const ContactPage = () => {
                 className="form-checkbox h-5 w-5 text-blue-600"
               />
               <label className="text-gray-300">I'm not a robot *</label>
-            </div>
+            </div> */}
             <button
               type="submit"
               disabled={!isFormValid()}
