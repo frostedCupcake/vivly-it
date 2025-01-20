@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <div
-        className="absolute inset-0"
+        className="absolute inset-0 bg-black"
         style={{
           // backgroundImage: `url('https://img.freepik.com/premium-photo/office-interior-room-space-background-working-place-generative-ai_839051-3687.jpg')`,
           backgroundSize: "cover",
