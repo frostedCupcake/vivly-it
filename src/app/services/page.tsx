@@ -1,9 +1,55 @@
 "use client";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import React from "react";
+import React, { useState } from "react";
 
 const page = () => {
+  const [hovered, setHovered] = useState<string | null>(null);
+
+  const techServices = [
+    "Custom Software Development",
+    "Web and Mobile Application Development",
+    "Cloud Solutions and Integration",
+    "Data Analytics and Business Intelligence",
+    "IT Infrastructure Management",
+    "Large Language Models (LLMs)",
+    "AI Agents for Automation",
+  ];
+
+  const consultingServices = [
+    "Business Intelligence Solutions",
+    "Data Analytics and Visualization",
+    "Technology Consulting",
+    "IT Strategy and Planning",
+    "Sustainability Solutions",
+  ];
+
+  const descriptions: any = {
+    "Custom Software Development":
+      "Create tailored software solutions designed to meet your unique business needs, enhancing productivity and driving innovation.",
+    "Web and Mobile Application Development":
+      "Develop responsive web and mobile applications to deliver seamless user experiences across devices.",
+    "Cloud Solutions and Integration":
+      "Leverage the power of cloud computing to enhance scalability, reduce costs, and streamline operations.",
+    "Data Analytics and Business Intelligence":
+      "Unlock actionable insights from your data with advanced analytics and BI tools, driving smarter decision-making.",
+    "IT Infrastructure Management":
+      "Ensure robust and efficient IT operations with comprehensive infrastructure management solutions.",
+    "Large Language Models (LLMs)":
+      "Implement cutting-edge AI models to streamline workflows, enhance communication, and automate processes.",
+    "AI Agents for Automation":
+      "Deploy AI-driven agents to automate repetitive tasks and improve operational efficiency.",
+    "Business Intelligence Solutions":
+      "Transform raw data into meaningful insights to support strategic business decisions.",
+    "Data Analytics and Visualization":
+      "Visualize complex data with intuitive dashboards, enabling better analysis and reporting.",
+    "Technology Consulting":
+      "Receive expert advice on technology strategy, helping you navigate the rapidly evolving digital landscape.",
+    "IT Strategy and Planning":
+      "Develop comprehensive IT strategies aligned with your business objectives to drive growth and innovation.",
+    "Sustainability Solutions":
+      "Adopt sustainable technologies to reduce your carbon footprint and promote environmental responsibility.",
+  };
   return (
     <div className="bg-black text-white">
       <Navbar />
@@ -28,9 +74,9 @@ const page = () => {
       </div>
 
       {/* Intro Section */}
-      <section className="py-10 px-6 md:py-20 md:px-10">
+      <section className="py-10  md:py-20 md:px-10">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-lg md:text-xl italic leading-relaxed">
+          <p className=" text-[.9rem] md:text-xl italic leading-relaxed">
             Our collaborative approach ensures that we work closely with our
             clients to understand their specific needs and develop customised
             solutions that align with their business objectives. With a proven
@@ -116,48 +162,75 @@ const page = () => {
       </section>
 
       {/* Services Section */}
-      <section className="py-10 px-6 md:py-20 md:px-10 ">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-5xl font-bold text-center mb-12">
-            Our Services
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            {[
-              {
-                title: "Technology Services",
-                items: [
-                  "Custom Software Development",
-                  "Web and Mobile Application Development",
-                  "Cloud Solutions and Integration",
-                  "Data Analytics and Business Intelligence",
-                  "IT Infrastructure Management",
-                  "Developing and Deploying Large Language Models (LLMs)",
-                  "Integrating GPT Layers into Existing Applications",
-                  "Building and Managing AI Agents for Automation",
-                ],
-              },
-              {
-                title: "Consulting Services",
-                items: [
-                  "Business Intelligence Solutions",
-                  "Data Analytics and Visualization",
-                  "Technology Consulting",
-                  "IT Strategy and Planning",
-                  "Sustainability-Focused Technology Solutions",
-                ],
-              },
-            ].map((service, index) => (
-              <div key={index}>
-                <h3 className="text-2xl font-semibold mb-4">{service.title}</h3>
-                <ul className="list-disc list-inside">
-                  {service.items.map((item, idx) => (
-                    <li key={idx} className="leading-relaxed text-base">
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
+      <section className="py-10 px-6 md:py-20 md:px-10">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+          {/* Technology Services */}
+          <div>
+            <h2 className="text-3xl font-bold mb-6">Technology Services</h2>
+            <ul className="space-y-4">
+              {techServices.map((service) => (
+                <li
+                  key={service}
+                  className={`cursor-pointer text-lg transition-colors duration-300 ${
+                    hovered === service
+                      ? "text-white font-bold"
+                      : "text-gray-400"
+                  }`}
+                  onMouseEnter={() => setHovered(service)}
+                  //   onMouseLeave={() => setHovered(null)}
+                >
+                  {service}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Highlighted Service */}
+          <div className="hidden md:block">
+            <h3 className="text-2xl font-semibold mb-4">
+              {hovered || "Hover over a service to see details"}
+            </h3>
+            <p className="leading-relaxed text-lg">
+              {descriptions[hovered ?? ""] ||
+                "Hover over a service to view its description."}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Consulting Services */}
+      <section className="py-10 px-6 md:py-20 md:px-10">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+          {/* Consulting Services */}
+          <div>
+            <h2 className="text-3xl font-bold mb-6">Consulting Services</h2>
+            <ul className="space-y-4">
+              {consultingServices.map((service) => (
+                <li
+                  key={service}
+                  className={`cursor-pointer w-fit text-lg transition-colors duration-300 ${
+                    hovered === service
+                      ? "text-white font-bold"
+                      : "text-gray-400"
+                  }`}
+                  onMouseEnter={() => setHovered(service)}
+                  //   onMouseLeave={() => setHovered(null)}
+                >
+                  {service}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Highlighted Service */}
+          <div className="hidden md:block">
+            <h3 className="text-2xl font-semibold mb-4">
+              {hovered || "Hover over a service to see details"}
+            </h3>
+            <p className="leading-relaxed text-lg">
+              {descriptions[hovered ?? ""] ||
+                "Hover over a service to view its description."}
+            </p>
           </div>
         </div>
       </section>

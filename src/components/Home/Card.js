@@ -31,7 +31,7 @@ const Card = ({
       </div>
 
       {/* Text Content */}
-      <div className="w-full lg:w-[40rem] mt-5 text-[1rem] md:text-[1.1rem] flex flex-col gap-2">
+      <div className="w-full lg:w-[40rem] text-[1rem] md:text-[1.1rem] flex flex-col gap-2">
         <p>{description1}</p>
         <p>{description2}</p>
       </div>
