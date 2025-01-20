@@ -46,20 +46,6 @@ export default function Home() {
                 delivery, offering comprehensive technology and business
                 services tailored to meet the unique needs of our clients.
               </p>
-              <div className="flex flex-col md:flex-row md:gap-5">
-                {/* <a href="/engineering-services">
-                  <button className="hover:-translate-y-1 transition-all text-[.8rem] md:text-[.9rem] w-[16rem] mt-5 md:mt-10 bg-white text-black rounded-xl px-4 py-2 flex items-center gap-2">
-                    Engineering Solutions
-                    <IoIosArrowForward />
-                  </button>
-                </a> */}
-                {/* <a href="/offshoring-&-consulting">
-                  <button className="hover:-translate-y-1 transition-all text-[.8rem] md:text-[.9rem] w-[16rem] mt-2 md:mt-10 bg-white text-black rounded-xl px-4 py-2 flex items-center gap-2">
-                    Offshoring and Consulting
-                    <IoIosArrowForward />
-                  </button>
-                </a> */}
-              </div>
             </div>
             <div className="w-1/3 ml-auto">
               <img

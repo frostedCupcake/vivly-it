@@ -54,7 +54,7 @@ const Deck = () => {
             Influencer Marketing Platform
           </h1>
           <Card
-            imageUrl="/assets/vivly-tab.png"
+            imageUrl="/assets/vivly-tab.jpg"
             websiteLink="/influencer-marketing-platform"
             title=""
             big="true"

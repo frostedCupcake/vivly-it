@@ -5,7 +5,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className=" text-white min-h-screen py-10 px-5 pt-[10rem]">
+    <div className="bg-black text-white min-h-screen py-10 px-5 pt-[10rem]">
       <Navbar />
       <div className="max-w-5xl mx-auto">
         <header className="mb-12">
