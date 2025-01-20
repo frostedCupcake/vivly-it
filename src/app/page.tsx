@@ -25,7 +25,7 @@ export default function Home() {
           backgroundColor: "rgba(0, 0, 0, 0.6)",
         }}
       ></div>
-      <div className="min-h-screen">
+      <div className="min-h-screen overflow-x-hidden">
         <Navbar />
 
         <section id="welcome" className="relative  px-4 md: pt-5 lg:pt-28">
@@ -94,26 +94,101 @@ export default function Home() {
         {/* <Deck /> */}
 
         {/* Trusted By Section */}
-        <section className="relative bg-black px-4 py-10">
+        <section className="relative bg-black px-4 py-10 ">
           <div className="w-[90vw] mx-auto">
             <h1 className="text-3xl md:text-5xl font-bold text-white mb-6">
               Trusted by
             </h1>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-6 w-fit mx-auto">
-              <img
-                src="https://www.carbon.earth/assets/logo.png"
-                alt="Carbon Earth"
-                className="w-full md:w-[15rem] rounded-xl"
-              />
+            <div className="infinite flex gap-5  mx-auto">
+              <div className="flex  md:w-[15rem] flex-col">
+                <img
+                  src="https://www.carbon.earth/assets/logo.png"
+                  alt="Carbon Earth"
+                  className="w-full bg-black md:w-[15rem] md:h-[15rem] rounded-xl"
+                />
+                <p className="text-[1.3rem] text-center md:w-[15rem] font-bold">
+                  Carbon Earth
+                </p>
+              </div>
               <img
                 src="https://pbs.twimg.com/profile_images/1119211326935404545/J0Vt4mRD_400x400.jpg"
                 alt="Pink List India"
                 className="w-full md:w-[15rem] rounded-xl"
               />
               <img
-                src="https://mir-s3-cdn-cf.behance.net/projects/404/6a60dc204832053.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png"
+                src="https://cdn.prod.website-files.com/64081b3f2fda69c80b5566e5/65c5ca91394a0791985dffb1_Schbang%20Logo%20-%20Emblem-Black.png"
                 alt="Schbang"
+                className="w-full bg-white md:w-[15rem] rounded-xl"
+              />
+              <img
+                src="https://i.pinimg.com/originals/01/ca/da/01cada77a0a7d326d85b7969fe26a728.jpg"
+                alt="Client Logo"
                 className="w-full md:w-[15rem] rounded-xl"
+              />
+              <img
+                src="https://i.pinimg.com/736x/43/b6/b4/43b6b4a29c8ce1dc69409903ffc4925c.jpg"
+                alt="Client Logo"
+                className="w-full md:w-[15rem] rounded-xl"
+              />
+              <img
+                src="https://play-lh.googleusercontent.com/__epMJq_flh2jLnFwCmBt4lHL3FkYvQDj6dZ2yIOvYK2tdruQ8I7PWYvkXi5hJQMxuo"
+                alt="Client Logo"
+                className="w-full md:w-[15rem] rounded-xl"
+              />
+              <div className="flex  md:w-[15rem] flex-col">
+                <img
+                  src="https://www.carbon.earth/assets/logo.png"
+                  alt="Carbon Earth"
+                  className="w-full bg-black md:w-[15rem] md:h-[15rem] rounded-xl"
+                />
+                <p className="text-[1.3rem] text-center md:w-[15rem] font-bold">
+                  Carbon Earth
+                </p>
+              </div>
+              <img
+                src="https://pbs.twimg.com/profile_images/1119211326935404545/J0Vt4mRD_400x400.jpg"
+                alt="Pink List India"
+                className="w-full md:w-[15rem] rounded-xl"
+              />
+              <img
+                src="https://cdn.prod.website-files.com/64081b3f2fda69c80b5566e5/65c5ca91394a0791985dffb1_Schbang%20Logo%20-%20Emblem-Black.png"
+                alt="Schbang"
+                className="w-full bg-white md:w-[15rem] rounded-xl"
+              />
+              <img
+                src="https://i.pinimg.com/originals/01/ca/da/01cada77a0a7d326d85b7969fe26a728.jpg"
+                alt="Client Logo"
+                className="w-full md:w-[15rem] rounded-xl"
+              />
+              <img
+                src="https://i.pinimg.com/736x/43/b6/b4/43b6b4a29c8ce1dc69409903ffc4925c.jpg"
+                alt="Client Logo"
+                className="w-full md:w-[15rem] rounded-xl"
+              />
+              <img
+                src="https://play-lh.googleusercontent.com/__epMJq_flh2jLnFwCmBt4lHL3FkYvQDj6dZ2yIOvYK2tdruQ8I7PWYvkXi5hJQMxuo"
+                alt="Client Logo"
+                className="w-full md:w-[15rem] rounded-xl"
+              />
+              <div className="flex  md:w-[15rem] flex-col">
+                <img
+                  src="https://www.carbon.earth/assets/logo.png"
+                  alt="Carbon Earth"
+                  className="w-full bg-black md:w-[15rem] md:h-[15rem] rounded-xl"
+                />
+                <p className="text-[1.3rem] text-center md:w-[15rem] font-bold">
+                  Carbon Earth
+                </p>
+              </div>
+              <img
+                src="https://pbs.twimg.com/profile_images/1119211326935404545/J0Vt4mRD_400x400.jpg"
+                alt="Pink List India"
+                className="w-full md:w-[15rem] rounded-xl"
+              />
+              <img
+                src="https://cdn.prod.website-files.com/64081b3f2fda69c80b5566e5/65c5ca91394a0791985dffb1_Schbang%20Logo%20-%20Emblem-Black.png"
+                alt="Schbang"
+                className="w-full bg-white md:w-[15rem] rounded-xl"
               />
               <img
                 src="https://i.pinimg.com/originals/01/ca/da/01cada77a0a7d326d85b7969fe26a728.jpg"
