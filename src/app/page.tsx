@@ -11,13 +11,13 @@ export default function Home() {
       <div className=" overflow-x-hidden bg-black">
         <Navbar />
 
-        <section id="welcome" className="relative  px-4 pt-[1rem] lg:pt-28">
-          <div className="w-[80vw] md:h-[80vh] mx-auto flex flex-col pt-20 pb-10 md:pb-[10rem] lg:flex-row lg:items-center justify-center">
-            <div className="w-[80vw] lg:w-[40rem]">
+        <section id="welcome" className="relative  md:px-4 pt-[1rem] lg:pt-28">
+          <div className="w-[100vw] md:w-[80vw] mx-auto flex flex-col pt-20 pb-10 md:pb-[10rem] lg:flex-row lg:items-center justify-center">
+            <div className="mx-auto w-[84vw] lg:w-[40rem]">
               <h1 className="text-3xl md:text-5xl font-bold text-white mb-3">
                 Welcome to Vivly.
               </h1>
-              <p className="text-[1rem] leading-relaxed md:text-[1.1rem] italic text-white text-left">
+              <p className="text-[1rem] leading-relaxed md:text-[1.1rem] italic text-white text-justify md:text-left">
                 From global giants to game-changing startups, we deliver
                 innovative, results-driven solutions that turn visions into
                 reality—explore how we can redefine your success.
