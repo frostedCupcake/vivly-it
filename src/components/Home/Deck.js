@@ -70,7 +70,7 @@ const Deck = () => {
           </h1>
           <Card
             imageUrl="https://pbs.twimg.com/profile_images/1119211326935404545/J0Vt4mRD_400x400.jpg"
-            websiteLink="https://www.pinklistindia.com/"
+            websiteLink="https://www.pinklistindia.com/pinksabha"
             title=""
             description2="Created PinkList India for Anish Gawande, Indian National Congress Party member, and LGBTQ+ spokesperson. This is an interactive platform that empowers users to explore the stances of 161 Lok Sabha MPs on LGBTQIA+ issues. Using a map and search tools, visitors can locate their constituency, discover which MPs have spoken up, and access detailed report cards to evaluate their advocacy and actions on LGBTQIA+ rights."
             description1="Pink List India is the country's first archive of politicians supporting LGBTQIA+ rights. Situated at the intersection of politics, queerness, and technology, it aims to push for accountability and transparency from our elected representatives."

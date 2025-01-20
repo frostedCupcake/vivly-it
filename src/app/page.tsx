@@ -92,45 +92,6 @@ export default function Home() {
           </div>
         </section>
         {/* <Deck /> */}
-        <section id="services" className="relative bg-black px-4 py-10">
-          <div className="w-[90vw] mx-auto">
-            <h1 className="text-3xl md:text-5xl font-bold text-white mb-6">
-              Our Services
-            </h1>
-            <div className="flex flex-col lg:flex-row gap-8">
-              {/* Technology Services */}
-              <div className="text-white flex-1">
-                <h2 className="text-2xl font-semibold mb-4">
-                  Technology Services
-                </h2>
-                <ul className="list-disc text-base md:text-lg list-inside">
-                  <li>Custom Software Development</li>
-                  <li>Web and Mobile Application Development</li>
-                  <li>Cloud Solutions and Integration</li>
-                  <li>Data Analytics and Business Intelligence</li>
-                  <li>IT Infrastructure Management</li>
-                  <li>Developing and Deploying Large Language Models (LLMs)</li>
-                  <li>Integrating GPT Layers into Existing Applications</li>
-                  <li>Building and Managing AI Agents for Automation</li>
-                </ul>
-              </div>
-
-              {/* Consulting Services */}
-              <div className="text-white flex-1">
-                <h2 className="text-2xl font-semibold mb-4">
-                  Consulting Services
-                </h2>
-                <ul className="list-disc text-base md:text-lg list-inside">
-                  <li>Business Intelligence Solutions</li>
-                  <li>Data Analytics and Visualization</li>
-                  <li>Technology Consulting</li>
-                  <li>IT Strategy and Planning</li>
-                  <li>Sustainability-Focused Technology Solutions</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* Trusted By Section */}
         <section className="relative bg-black px-4 py-10">

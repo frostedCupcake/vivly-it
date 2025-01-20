@@ -45,7 +45,7 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">
           <li>
-            <a href="/offshoring-&-consulting" className="hover:underline">
+            <a href="/services" className="hover:underline">
               Services
             </a>
           </li>
@@ -71,7 +71,7 @@ const Navbar = () => {
         <div className="md:hidden">
           <ul className="flex flex-col space-y-4 px-4 py-6">
             <li>
-              <a href="/offshoring-&-consulting" className="hover:underline">
+              <a href="/services" className="hover:underline">
                 Services
               </a>
             </li>
