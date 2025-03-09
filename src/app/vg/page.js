@@ -139,11 +139,100 @@ const WorkProfile = () => {
         </div>
       </div>
 
-      <div className="max-w-6xl flex flex-col">
-        <h2 className="text-white text-2xl font-bold mb-4">💼 My Portfolio</h2>
-        {experiences.map((exp, index) => (
-          <WorkExperience key={index} {...exp} />
-        ))}
+      <div className="pb-2 text-white/80 relative flex items-center justify-center">
+        <div className=" z-[1000]">
+          <h1 className="text-[1.2rem] underline mb-10 mx-auto text-center md:text-[1.7rem] mt-5">
+            Why I choose Entrepreneurship.{" "}
+          </h1>
+          <p className="text-[1.2rem] mb-2 capitalize mx-auto w-[90vw] lg:w-[60rem] md:text-[1.7rem] mt-5">
+            How It All Began -
+          </p>
+          <ul className="space-y-4 text-left text-[.9rem] md:text-[1.1rem] w-[90vw] lg:w-[60rem] mx-auto">
+            <li>
+              March 2020. The world was shutting down. Streets were empty, and
+              panic was everywhere. The news was flooded with images of
+              overwhelmed hospitals and families struggling to get basic
+              protective gear. At home, I faced a simple yet frustrating
+              problem, getting masks and sanitizers for my family and relatives
+              was nearly impossible. Even if they were available, the prices
+              were outrageous.
+            </li>
+            <li>
+              That’s when a thought struck me: What if I could bypass the
+              middlemen and get these essentials directly at wholesale prices?
+              But why stop at just my family? What if we could scale this and
+              distribute to families in need, hospitals, and frontline workers?
+            </li>
+            <li>And just like that, my first business idea was born.</li>
+            <li>
+              <p className="text-[1.2rem] mb-2 capitalize mx-auto w-[90vw] lg:w-[60rem] md:text-[1.7rem] mt-5">
+                Scaling Up -
+              </p>
+            </li>
+
+            <li className="">
+              <>
+                We reached out to a healthcare startup that was working on
+                pharmaceutical supply chain solutions. We proposed an idea, a
+                logistics platform where anyone in the world could request a
+                quote for masks, PPE kits, and sanitizers. Within weeks, we
+                built the system, ensuring seamless tracking and delivery of
+                medical supplies.
+              </>
+            </li>
+            <li className="">
+              <>
+                Despite massive logistical challenges trucks getting stuck,
+                halted rail services, and unpredictable government regulations,
+                we found ways to navigate through the chaos. Working with
+                Atrillu, we helped distribute masks, surgical masks, and PPE
+                kits by partnering with 3M across Telangana, Andhra Pradesh, and
+                Tamil Nadu. Every successful delivery meant a hospital getting
+                much-needed protective gear or a family staying safe. It was
+                intense, exhausting, but deeply fulfilling.
+              </>
+            </li>
+          </ul>
+
+          <p className="text-[1.2rem] capitalize mb-2 mx-auto w-[90vw] lg:w-[60rem] md:text-[1.7rem] mt-5">
+            Falling in love with my work -
+          </p>
+          <ul className="space-y-4 text-left text-[.9rem] md:text-[1.1rem] w-[90vw] lg:w-[60rem] mx-auto">
+            <li className="">
+              I met Harshil Karia, who was working at a Swedish company, Proof
+              Analytics. He had ambitious ideas for improving their system, but
+              their leadership was resistant to change. Frustrated, he left and
+              joined us to start Pensive.
+            </li>
+
+            <li className="">
+              Pensive was built with a simple but powerful goal: help companies
+              allocate their marketing budgets more effectively using data
+              analytics. We expanded into Amazon’s ad tracking ecosystem,
+              helping brands optimize their ad spends at scale.
+            </li>
+
+            <li className="">
+              <>
+                As influencer marketing exploded, we saw a massive inefficiency.
+                Companies were constantly hiring and firing teams based on
+                fluctuating campaign demands. The process was chaotic and
+                inefficient.
+              </>
+            </li>
+            <li className="">
+              <>
+                We build a fully automated, enterprise-level influencer
+                marketing platform. We built an MVP that was even used by
+                Sociowash, a Delhi-based agency, to run marketing campaigns for
+                their client, Urbanic, for two months.
+              </>
+            </li>
+            <li className="">
+              <>Unfortunately. we decided to shut it down.</>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
