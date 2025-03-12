@@ -27,7 +27,7 @@ const Deck = () => {
             imageUrl="https://www.carbon.earth/assets/logo.png"
             websiteLink="https://www.carbon.earth/"
             title=""
-            description2="Building a real-time AR for smart agriculture & forestry. Ooftware that captures videos of specific crops or fields, processes the data to create a digital twin, and uses AI for analysis. By integrating visual data, satellite imagery, and geolocation, the system can estimate biomass, assess crop damage, monitor encroachment, track wildfire risks, and detect illegal logging in real-time. This technology will be accessible via an Android app and drones, providing farmers and authorities with actionable insights."
+            description2="Building a real-time AR for smart agriculture & forestry. Software that captures videos of specific crops or fields, processes the data to create a digital twin, and uses AI for analysis. By integrating visual data, satellite imagery, and geolocation, the system can estimate biomass, assess crop damage, monitor encroachment, track wildfire risks, and detect illegal logging in real-time. This technology will be accessible via an Android app and drones, providing farmers and authorities with actionable insights."
             description1="Co-Founded by Jaswanth Beere and Vivasvan Krishna."
           />
         </div>
@@ -54,8 +54,8 @@ const Deck = () => {
               </p>
               <p>
                 We gave away more than 30 plus tickets to true cricket fans who
-                couldn't afford the tickets because every cricket lover deserves
-                a chance to witness history in the making.
+                couldn't afford the tickets because every cricket fan deserves a
+                chance to witness history in the making.
               </p>
             </div>
           </div>
@@ -121,7 +121,7 @@ const Deck = () => {
         {/* Automated Marketing Mixed Modeling */}
         <div className="mt-5  p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300  text-white">
           <h1 className="text-[1.4rem] text-center md:text-left md:text-5xl font-bold mb-10">
-            Automated Marketing Mixed Modeling
+            Automated Marketing Mix Modeling
           </h1>
           <div className="flex bg-gray-900 p-5 rounded-xl flex-col lg:flex-row items-center justify-center gap-6">
             <img
