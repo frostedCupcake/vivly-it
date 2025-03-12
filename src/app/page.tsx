@@ -60,7 +60,7 @@ export default function Home() {
           </div>
         </section>
         {/* <Deck /> */}
-        <div className="bg-black ">
+        {/* <div className="bg-black ">
           <h1 className=" text-white text-center pt-16 text-4xl font-bold">
             {" "}
             Team
@@ -85,7 +85,6 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className=" flex items-center text-black bg-white/90 p-2 rounded-xl hover:bg-white transition-all"
                 >
-                  {/* <FaLinkedin className="mr-2" /> */}
                   Know More
                 </a>
               </div>
@@ -108,13 +107,12 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className=" flex items-center text-black bg-white/90 p-2 rounded-xl hover:bg-white transition-all"
                 >
-                  {/* <FaLinkedin className="mr-2" /> */}
                   Know More
                 </a>
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Trusted By Section */}
         <section className="relative bg-black px-4 py-10">
