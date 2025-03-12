@@ -10,13 +10,8 @@ const page = () => {
       <div className="max-w-5xl mx-auto">
         <header className="mb-12">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 text-center">
-            Revolutionizing Influencer Marketing
+            Automated Influencer Marketing
           </h1>
-          <p className="text-lg md:text-xl leading-relaxed text-center text-gray-300">
-            Transforming influencer campaigns with cutting-edge AI and robust
-            collaboration tools. Empowering marketers with insights and
-            efficiency.
-          </p>
         </header>
 
         <section className="mb-16">
@@ -42,8 +37,79 @@ const page = () => {
             real-time campaign performance analytics, streamlined workflows with
             automation for onboarding and payments, ensured scalability to
             support global campaigns and large datasets, and provided an
-            intuitive, user-friendly interface for marketers.
+            intuitive, user-friendly interface for marketers/agencies.
           </p>
+        </section>
+
+        <section className="mb-16">
+          <h2 className="text-3xl font-semibold text-left mb-10">
+            How It Works
+          </h2>
+          <div className="relative flex flex-col items-center space-y-10 md:space-y-0 md:grid md:grid-cols-5 md:gap-6">
+            {/* Step 1 */}
+            <div className="relative flex flex-col items-center text-center">
+              <div className="w-16 h-16 bg-blue-500 text-white flex items-center justify-center text-xl font-bold rounded-full">
+                1
+              </div>
+              <p className="mt-4 text-lg font-medium max-w-[200px]">
+                Define campaign objectives, creative ideas, and goals.
+              </p>
+            </div>
+
+            {/* Connector */}
+            <div className="hidden md:block w-full h-1 bg-gray-300 self-center"></div>
+
+            {/* Step 2 */}
+            <div className="relative flex flex-col items-center text-center">
+              <div className="w-16 h-16 bg-green-500 text-white flex items-center justify-center text-xl font-bold rounded-full">
+                2
+              </div>
+              <p className="mt-4 text-lg font-medium max-w-[200px]">
+                Identify the right influencers through AI-powered
+                recommendations.
+              </p>
+            </div>
+
+            {/* Connector */}
+            <div className="hidden md:block w-full h-1 bg-gray-300 self-center"></div>
+
+            {/* Step 3 */}
+            <div className="relative flex flex-col items-center text-center">
+              <div className="w-16 h-16 bg-yellow-500 text-white flex items-center justify-center text-xl font-bold rounded-full">
+                3
+              </div>
+              <p className="mt-4 text-lg font-medium max-w-[200px]">
+                Onboard influencers with seamless tools for communication and
+                payments.
+              </p>
+            </div>
+
+            {/* Connector */}
+            <div className="hidden md:block w-full h-1 bg-gray-300 self-center"></div>
+
+            {/* Step 4 */}
+            <div className="relative flex flex-col items-center text-center">
+              <div className="w-16 h-16 bg-red-500 text-white flex items-center justify-center text-xl font-bold rounded-full">
+                4
+              </div>
+              <p className="mt-4 text-lg font-medium max-w-[200px]">
+                Launch the campaign and monitor performance in real-time.
+              </p>
+            </div>
+
+            {/* Connector */}
+            <div className="hidden md:block w-full h-1 bg-gray-300 self-center"></div>
+
+            {/* Step 5 */}
+            <div className="relative flex flex-col items-center text-center">
+              <div className="w-16 h-16 bg-purple-500 text-white flex items-center justify-center text-xl font-bold rounded-full">
+                5
+              </div>
+              <p className="mt-4 text-lg font-medium max-w-[200px]">
+                Analyze results and optimize future campaigns for success.
+              </p>
+            </div>
+          </div>
         </section>
 
         <section className="mb-16">
@@ -77,19 +143,15 @@ const page = () => {
         </section>
 
         <section className="mb-16">
-          <h2 className="text-3xl font-semibold mb-6">How It Works</h2>
-          <ol className="list-decimal list-inside space-y-4 text-[1.1rem]">
-            <li>Define campaign objectives, creative ideas, and goals.</li>
-            <li>
-              Identify the right influencers through AI-powered recommendations.
-            </li>
-            <li>
-              Onboard influencers with seamless tools for communication and
-              payments.
-            </li>
-            <li>Launch the campaign and monitor performance in real-time.</li>
-            <li>Analyze results and optimize future campaigns for success.</li>
-          </ol>
+          <h2 className="text-3xl font-semibold mb-6">
+            Future Work (Tavrin) - AI Marketeer
+          </h2>
+          <p className="mb-6 leading-relaxed text-[1.1rem]">
+            We have a bold vision to replace the entire marketing team with a
+            single AI-driven agent which is capable of understanding audiences
+            with unmatched depth, crafting hyper-personalized campaigns at
+            scale, optimizing results in real time.
+          </p>
         </section>
 
         <section className="mb-16">

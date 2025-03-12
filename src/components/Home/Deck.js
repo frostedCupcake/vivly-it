@@ -16,17 +16,17 @@ const Deck = () => {
             imageUrl="https://www.carbon.earth/assets/logo.png"
             websiteLink="https://www.carbon.earth/"
             title=""
-            description2="Focused on implementing AI-powered carbon accounting software to measure and report carbon emissions for industries and a climate-tech platform that uses AI, which can combine visual field data with multi-spectral satellite imagery to estimate GHG sequestration, enabling carbon credit generation."
-            description1="Co-Founded by Viv Gadepalli and Jaswanth Beere."
+            description2="Building a real-iime AR for smart agriculture & forestry. Ooftware that captures videos of specific crops or fields, processes the data to create a digital twin, and uses AI for analysis. By integrating visual data, satellite imagery, and geolocation, the system can estimate biomass, assess crop damage, monitor encroachment, track wildfire risks, and detect illegal logging in real-time. This technology will be accessible via an Android app and drones, providing farmers and authorities with actionable insights."
+            description1="Co-Founded by Vivasvan Krishna and Jaswanth Beere."
           />
         </div>
 
         {/* Ticketing Solutions */}
-        <div className="mt-5 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300  text-white">
+        <div className="mt-5 p-6 rounded-lg  shadow-lg hover:shadow-xl transition-shadow duration-300  text-white">
           <h1 className="text-[1.4rem] text-center md:text-left md:text-5xl font-bold mb-10">
             Ticketing Solutions
           </h1>
-          <div className="flex flex-col lg:flex-row items-center justify-center gap-6">
+          <div className="flex flex-col bg-gray-900 p-5 rounded-xl lg:flex-row items-center justify-center gap-6">
             <img
               src="/assets/tickets.jpeg"
               alt="Card Image"
@@ -60,8 +60,8 @@ const Deck = () => {
             websiteLink="/influencer-marketing-platform"
             title=""
             big="true"
-            description2="Founded by Viv Gadepalli. The platform is driven by a high-achieving team of exceptional individuals, all of whom are IIT Alums who have previously worked at Salesforce, Asea Brown Boveri, Blackstone Group, and other leading global firms."
-            description1="An end-to-end influencer marketing platform focused on unlocking the next level of influencer marketing. Marketers can take decisions backed by data and automate routine tasks, helping them launch customer-focused campaigns at scale. It enables brands to connect with customers by discovering and collaborating with the best-suited influencers and measuring the impact of their campaigns."
+            description2="Founded by Vivasvan Krishna. The platform is driven by a high-achieving team of exceptional individuals, all of whom are IIT Alums who have previously worked at Salesforce, Asea Brown Boveri, Blackstone Group, and other leading global firms."
+            description1="An end-to-end influencer marketing platform with customisable UI/UX"
           />
         </div>
 
@@ -75,7 +75,7 @@ const Deck = () => {
             websiteLink="https://www.pinklistindia.com/pinksabha"
             title=""
             description2="Created PinkList India for Anish Gawande, Indian National Congress Party member, and LGBTQ+ spokesperson. This is an interactive platform that empowers users to explore the stances of 161 Lok Sabha MPs on LGBTQIA+ issues. Using a map and search tools, visitors can locate their constituency, discover which MPs have spoken up, and access detailed report cards to evaluate their advocacy and actions on LGBTQIA+ rights."
-            description1="Pink List India is the country's first archive of politicians supporting LGBTQIA+ rights. Situated at the intersection of politics, queerness, and technology, it aims to push for accountability and transparency from our elected representatives."
+            description1="Pink List India is the country's first archive of politicians supporting LGBTQIA+ rights."
           />
         </div>
 
@@ -84,7 +84,7 @@ const Deck = () => {
           <h1 className="text-[1.4rem] text-center md:text-left md:text-5xl font-bold mb-10">
             Ad Tracking Tool
           </h1>
-          <div className="flex flex-col lg:flex-row items-center justify-center gap-6">
+          <div className="flex  bg-gray-900 p-5 rounded-xl flex-col lg:flex-row items-center justify-center gap-6">
             <img
               src="https://www.nexd.com/wp-content/uploads/2024/05/video_ad-1024x576.png"
               alt="Card Image"
@@ -108,11 +108,11 @@ const Deck = () => {
         </div>
 
         {/* Automated Marketing Mixed Modeling */}
-        <div className="mt-5 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300  text-white">
+        <div className="mt-5  p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300  text-white">
           <h1 className="text-[1.4rem] text-center md:text-left md:text-5xl font-bold mb-10">
             Automated Marketing Mixed Modeling
           </h1>
-          <div className="flex flex-col lg:flex-row items-center justify-center gap-6">
+          <div className="flex bg-gray-900 p-5 rounded-xl flex-col lg:flex-row items-center justify-center gap-6">
             <img
               src="https://www.c5i.ai/wp-content/uploads/Marketing-Mix-Modeling-banner-objectV1.jpg"
               alt="Card Image"

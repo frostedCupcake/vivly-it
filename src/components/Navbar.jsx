@@ -49,11 +49,11 @@ const Navbar = () => {
               Services
             </a>
           </li>
-          {/* <li>
+          <li>
             <a href="/portfolio" className="hover:underline">
               Portfolio
             </a>
-          </li> */}
+          </li>
 
           <li>
             <a

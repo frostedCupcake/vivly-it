@@ -10,9 +10,9 @@ const Card = ({
   big = "false",
 }) => {
   return (
-    <div className="flex flex-col lg:flex-row items-start justify-start gap-10">
+    <div className="flex flex-col bg-gray-900 p-5 rounded-xl lg:flex-row items-start justify-start gap-10">
       {/* Image and Link */}
-      <div className="flex flex-col items-center justify-center gap-5 w-full lg:w-auto">
+      <div className="flex  flex-col items-center justify-center gap-5 w-full lg:w-auto">
         <img
           src={imageUrl}
           alt="Card Image"
@@ -32,7 +32,7 @@ const Card = ({
 
       {/* Text Content */}
       <div className="w-full lg:w-[40rem] text-[1rem] md:text-[1.1rem] flex flex-col gap-2">
-        <p>{description1}</p>
+        <p className="font-bold">{description1}</p>
         <p>{description2}</p>
       </div>
     </div>
