@@ -6,7 +6,18 @@ const Deck = () => {
     <section className="relative bg-black px-4 py-5 lg:py-10">
       <div className="w-full lg:w-[80vw] flex flex-col gap-6 mx-auto">
         <h1 className="text-[1.4rem] text-center md:text-left md:text-5xl font-bold text-white mb-6"></h1>
-
+        <div className="mt-5 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300  text-white">
+          <h1 className="text-[1.4rem] text-center md:text-left md:text-5xl font-bold mb-10">
+            Tavrin
+          </h1>
+          <Card
+            imageUrl="/assets/tavrin.png"
+            websiteLink="https://youtu.be/dTIff1zItRg/"
+            title=""
+            description2="Building an application that is capable of replacing your entire marketing team with a single AI-driven agent which is capable of understanding audiences with unmatched depth, crafting hyper-personalized campaigns at scale, optimizing results in real time. Soon, we will deploy AI Agents to intelligently automate marketing beyond influencer campaigns and expanding into: WhatsApp Marketing, Meta & Google Ads and YouTube Campaigns"
+            description1="Co-Founded by Vivasvan Krishna and Jaswanth Beere."
+          />
+        </div>
         {/* Carbon Earth */}
         <div className="mt-5 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300  text-white">
           <h1 className="text-[1.4rem] text-center md:text-left md:text-5xl font-bold mb-10">
@@ -16,8 +27,8 @@ const Deck = () => {
             imageUrl="https://www.carbon.earth/assets/logo.png"
             websiteLink="https://www.carbon.earth/"
             title=""
-            description2="Building a real-iime AR for smart agriculture & forestry. Ooftware that captures videos of specific crops or fields, processes the data to create a digital twin, and uses AI for analysis. By integrating visual data, satellite imagery, and geolocation, the system can estimate biomass, assess crop damage, monitor encroachment, track wildfire risks, and detect illegal logging in real-time. This technology will be accessible via an Android app and drones, providing farmers and authorities with actionable insights."
-            description1="Co-Founded by Vivasvan Krishna and Jaswanth Beere."
+            description2="Building a real-time AR for smart agriculture & forestry. Ooftware that captures videos of specific crops or fields, processes the data to create a digital twin, and uses AI for analysis. By integrating visual data, satellite imagery, and geolocation, the system can estimate biomass, assess crop damage, monitor encroachment, track wildfire risks, and detect illegal logging in real-time. This technology will be accessible via an Android app and drones, providing farmers and authorities with actionable insights."
+            description1="Co-Founded by Jaswanth Beere and Vivasvan Krishna."
           />
         </div>
 
