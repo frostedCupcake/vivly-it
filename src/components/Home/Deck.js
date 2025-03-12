@@ -3,7 +3,7 @@ import Card from "./Card";
 
 const Deck = () => {
   return (
-    <section className="relative bg-black px-4 py-5 lg:py-10">
+    <section className="relative bg-black md:px-4 py-5 lg:py-10">
       <div className="w-full lg:w-[80vw] flex flex-col gap-6 mx-auto">
         <h1 className="text-[1.4rem] text-center md:text-left md:text-5xl font-bold text-white mb-6"></h1>
         <div className="mt-5 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300  text-white">
