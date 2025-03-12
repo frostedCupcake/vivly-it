@@ -1,45 +1,55 @@
 const WorkProfile = () => {
   return (
     <div className="flex bg-black flex-col items-center justify-center ">
-      <div className="bg-black text-white min-h-screen flex justify-center items-center md:p-6">
+      <div className="bg-black text-white/80 min-h-[70vh] flex justify-center items-center md:p-6">
         <div className="w-[90vw] md:max-w-6xl mx-auto md:p-8 rounded-lg flex flex-col-reverse md:flex-row items-center md:items-start">
           {/* Left Section - Text Content */}
           <div className="w-full md:w-2/3 text-left">
-            <h2 className="text-3xl sm:text-4xl font-bold text-white text-center md:text-left">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white/80 text-center md:text-left">
               Jaswanth Beere
             </h2>
-            <h3 className="text-lg sm:text-[1.3rem] font-semibold text-gray-400 mt-2 text-center md:text-left">
+            <h3 className="text-lg sm:text-[1.3rem] font-semibold text-white/80 mt-2 text-center md:text-left">
               Revved up, ready to change the game.
             </h3>
-            <p className="mt-4 text-gray-300 text-sm sm:text-[1.1rem] leading-relaxed">
+            <p className="mt-4 text-white/80 text-sm sm:text-[1.1rem] leading-relaxed">
               I'm just an average Joe with a firm belief in the Midwit Theory,
               growing with purpose.
             </p>
 
             {/* Contact Section */}
-            <div className="mt-6 items-center justify-center  text-[0.9rem] md:text-[1rem] flex flex-row sm:flex-row sm:justify-center md:justify-start gap-2 sm:space-y-0 sm:space-x-4">
+            <div className="mt-6 items-center justify-center  text-[0.9rem] md:text-[1rem] flex flex-col sm:flex-row sm:justify-center md:justify-start gap-2 sm:space-y-0 sm:space-x-4">
               <a
                 href="mailto:vg@vivly.in"
-                className="bg-gray-800  w-fit px-1 md:px-4 py-1 md:py-2 border border-white rounded-md flex items-center justify-center space-x-2  sm:w-auto"
+                className="bg-black  w-fit px-1 md:px-4 py-1 md:py-2 border border-gray-400 rounded-md flex items-center justify-center space-x-2  sm:w-auto"
               >
                 {/* <span>📧</span> */}
                 <span>jaswanthbeere@gmail.com</span>
               </a>
               <a
                 href="tel:+917982429660"
-                className="bg-gray-800  w-fit px-1 md:px-4 py-1 md:py-2 border border-white rounded-md flex items-center justify-center space-x-2  sm:w-auto"
+                className="bg-black  w-fit px-1 md:px-4 py-1 md:py-2 border border-gray-400 rounded-md flex items-center justify-center space-x-2  sm:w-auto"
               >
                 {/* <span>📞</span> */}
                 <span>+91 9866255635</span>
               </a>
-              <a
-                href="https://www.linkedin.com/in/jaswanth-beere-382239224"
-                target="_blank"
-                className="bg-gray-800  w-fit px-1 md:px-4 py-1 md:py-2 border border-white rounded-md flex items-center justify-center space-x-2  sm:w-auto"
-              >
-                {/* <span>🔗</span> */}
-                <span>LinkedIn</span>
-              </a>
+              <div className="flex flex-row items-center justify-center gap-2 md:gap-4">
+                <a
+                  href="https://github.com/frostedCupcake/"
+                  target="_blank"
+                  className="bg-black  w-fit px-1 md:px-4 py-1 md:py-2 border border-gray-400 rounded-md flex items-center justify-center space-x-2  sm:w-auto"
+                >
+                  {/* <span>🔗</span> */}
+                  <span>Github</span>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/jaswanth-beere-382239224"
+                  target="_blank"
+                  className="bg-black  w-fit px-1 md:px-4 py-1 md:py-2 border border-gray-400 rounded-md flex items-center justify-center space-x-2  sm:w-auto"
+                >
+                  {/* <span>🔗</span> */}
+                  <span>LinkedIn</span>
+                </a>
+              </div>
             </div>
           </div>
 
@@ -54,41 +64,30 @@ const WorkProfile = () => {
         </div>
       </div>
 
-      <div className="pb-20  text-white/80 bg-grid-black/[0.05] relative flex items-center justify-center">
+      <div className="pb-20  text-white/80 relative flex items-center justify-center">
         <div className=" z-[1000]">
           <h1 className="text-[1.2rem] underline mb-10 mx-auto text-center md:text-[1.7rem] mt-5">
-            Why I choose Entrepreneurship.{" "}
+            How I discovered my passion.{" "}
           </h1>
-          <div className="flex flex-col md:flex-row gap-10 w-[90vw] lg:w-[60rem]">
-            <div className="w-[90vw] md:w-[15rem] my-2">
-              <img className="rounded-xl  " src="/assets/f-rose.jpg" />
-              <span className="text-[.75rem] w-[90vw]  text-justify mt-2 text-black/80">
-                It’s a perfect picture of how nature effortlessly combines
-                complexity and minimalism.
-              </span>
-            </div>
-            <div>
-              <ul className="space-y-4 text-left  w-[90vw] md:w-[45rem] text-[.9rem] md:text-[1.1rem]  mx-auto">
-                <li>
-                  A wise man once said, “Your passion is not something you find;
-                  it’s something you uncover within yourself by chasing what
-                  makes your soul come alive.”
-                </li>
-                <li>
-                  Well, if that’s true, then it’s safe to say I uncovered my
-                  passion multiple times throughout my bachelor’s studies.
-                </li>
-                <li>
-                  Which led me to gain substantial experience through numerous
-                  internships, projects, and club work. Each new challenge and
-                  curiosity led me to dive deeper, turning fleeting interests
-                  into lasting expertise. I not only honed my technical skills
-                  but also developed a deep appreciation for how technology
-                  drives modern businesses forward.
-                </li>
-              </ul>
-            </div>
-          </div>
+          <ul className="space-y-4 text-left text-[.9rem] md:text-[1.1rem] w-[90vw] lg:w-[60rem] mx-auto">
+            <li>
+              A wise man once said, “Your passion is not something you find;
+              it’s something you uncover within yourself by chasing what makes
+              your soul come alive.”
+            </li>
+            <li>
+              Well, if that’s true, then it’s safe to say I uncovered my passion
+              multiple times throughout my bachelor’s studies.
+            </li>
+            <li>
+              Which led me to gain substantial experience through numerous
+              internships, projects, and club work. Each new challenge and
+              curiosity led me to dive deeper, turning fleeting interests into
+              lasting expertise. I not only honed my technical skills but also
+              developed a deep appreciation for how technology drives modern
+              businesses forward.
+            </li>
+          </ul>
           <p className="text-[1.2rem] mb-2 capitalize mx-auto w-[90vw] lg:w-[60rem] md:text-[1.7rem] mt-5">
             How It All Began -
           </p>
@@ -140,10 +139,26 @@ const WorkProfile = () => {
                 arduino, microcontrollors and various sensors. Notably, I worked
                 on cool hardware projects involving gestures to communicate
                 wirelessly with various devices. Firstly, a gesture controlled
-                car and secondly, AI powered gesture recoginition system
-                utilizing motion sensors where we capture and analyse data from
-                a Google Wear OS wrist watch in real time.{" "}
+                car. Secondly, AI powered gesture recoginition system utilizing
+                motion sensors where we capture and analyse data from a Google
+                Wear OS wrist watch in real time and finally, IoT-based fall
+                detection using a NodeMCU, MPU6050 sensor, Flutter and
+                Websockets.{" "}
               </>
+            </li>
+            <li className="flex flex-col md:flex-row gap-10 justify-center items-center">
+              <div className="w-[90vw] md:w-[14rem] my-2">
+                <img className="rounded-xl  " src="/assets/robo-car.jpg" />
+                <span className="text-[.75rem]  w-[90vw] md:w-[15rem]  mt-2 text-white/80">
+                  Gesture Controlled Car.
+                </span>
+              </div>
+              <div className="w-[90vw] md:w-[35rem]">
+                <img className="rounded-xl  " src="/assets/fall.png" />
+                <span className="text-[.75rem]  w-[90vw] md:w-[25rem]  mt-2 text-white/80">
+                  Fall Detection System.
+                </span>
+              </div>
             </li>
             <li className="">
               <>
@@ -158,14 +173,14 @@ const WorkProfile = () => {
             <li className="flex flex-col md:flex-row gap-10 justify-center items-center">
               <div className="w-[90vw] md:w-[25rem] my-2">
                 <img className="rounded-xl  " src="/assets/lambda.jpg" />
-                <span className="text-[.75rem]  w-[90vw] md:w-[25rem]  mt-2 text-black/80">
+                <span className="text-[.75rem]  w-[90vw] md:w-[25rem]  mt-2 text-white/80">
                   A picture from 2024 with my Lambda Co-Heads, right after
                   conducting a session on Docker.
                 </span>
               </div>
               <div className="w-[90vw] md:w-[25rem]">
                 <img className="rounded-xl  " src="/assets/at.jpg" />
-                <span className="text-[.75rem]  w-[90vw] md:w-[25rem]  mt-2 text-black/80">
+                <span className="text-[.75rem]  w-[90vw] md:w-[25rem]  mt-2 text-white/80">
                   My genius friend and I hacking our way through our college's
                   attendance app.
                 </span>
@@ -179,8 +194,8 @@ const WorkProfile = () => {
           <ul className="space-y-4 text-left text-[.9rem] md:text-[1.1rem] w-[90vw] lg:w-[60rem] mx-auto">
             <li className="">
               <>
-                At 20, I began my entrepreneurial journey by joining the
-                founding team of{" "}
+                At the start of my third year, I began my entrepreneurial
+                journey by joining the founding team of{" "}
                 <a
                   href="https://picapool.com/"
                   className="underline italic font-serif"
@@ -247,7 +262,7 @@ const WorkProfile = () => {
                 className="rounded-xl  w-[40rem]"
                 src="/assets/pp-flow.jpeg"
               />
-              <span className="text-[.75rem] mt-2 text-black/80">
+              <span className="text-[.75rem] mt-2 text-white/80">
                 A picture taken from my hostel room during discussions on
                 Picapool's app flow.
               </span>
@@ -270,6 +285,16 @@ const WorkProfile = () => {
                 designs.
               </>
             </li>
+            <li className="flex py-3   flex-col justify-center items-center ">
+              <img
+                className="rounded-xl  w-[40rem]"
+                src="/assets/pp-google.jpeg"
+              />
+              <span className="text-[.75rem] mt-2 text-white/80">
+                A picture taken at Google Hyderabad Office, with me sitting near
+                the heart of Google.
+              </span>
+            </li>
             <li className="">
               <>
                 I delivered the product in a month and launched it on the Play
@@ -279,64 +304,30 @@ const WorkProfile = () => {
               </>
             </li>
 
-            <li className="flex py-3   flex-col justify-center items-center ">
-              <img
-                className="rounded-xl  w-[40rem]"
-                src="/assets/pp-google.jpeg"
-              />
-              <span className="text-[.75rem] mt-2 text-black/80">
-                A picture taken at Google Hyderabad Office, with me sitting near
-                the heart of Google.
-              </span>
+            <li className="flex flex-col md:flex-row gap-10 justify-center items-center">
+              <div className="w-[90vw] md:w-[25rem] ">
+                <img
+                  className="rounded-xl  bg-white"
+                  src="https://picapool.com/assets/CreatePool1.svg"
+                />
+                <span className="text-[.75rem]  w-[90vw] md:w-[25rem]  mt-2 text-white/80">
+                  Save more with Picapool.
+                </span>
+              </div>
+              <div className="w-[90vw] md:w-[21rem]">
+                <img
+                  className="rounded-xl  "
+                  src="https://picapool.com/assets/bootcampimage.svg"
+                />
+                <span className="text-[.75rem]  w-[90vw] md:w-[25rem]  mt-2 text-white/80">
+                  September 24th 2023.
+                </span>
+              </div>
             </li>
           </ul>
 
-          <ul className="space-y-4 text-left text-[.9rem] md:text-[1.1rem] w-[90vw] lg:w-[60rem] mx-auto">
-            <li className="">
-              Just recently, in December 2024, I led a 7-member team at the
-              Inter IIT Tech Meet, representing our college at IIT Bombay. We
-              presented a solution for the Indian Space Research Organisation
-              challenge and developed a Google Earth equivalent for the Moon.
-            </li>
-            <li className="flex flex-col md:flex-row gap-10 justify-center items-center">
-              <div className="w-[90vw] md:w-[14rem] my-2">
-                <img className="rounded-xl  " src="/assets/isro-dope.jpg" />
-                <span className="text-[.75rem]  w-[90vw] md:w-[15rem]  mt-2 text-black/80">
-                  Inter IIT Tech Meet
-                </span>
-              </div>
-              <div className="w-[90vw] md:w-[25rem]">
-                <img className="rounded-xl  " src="/assets/isro-t.jpg" />
-                <span className="text-[.75rem]  w-[90vw] md:w-[25rem]  mt-2 text-black/80">
-                  Team.
-                </span>
-              </div>
-            </li>
-            <li>
-              {" "}
-              During the same event, I had the opportunity to present Carbon
-              Earth at the Pan IIT Tech Expo, where I encountered a startup born
-              out of a biotechnology club. They had engineered a bioorganism
-              capable of capturing atmospheric CO₂ and rapidly converting it
-              into limestone. I was blown away when I realized the potential of
-              this field to radically transform the world and improve people's
-              lives.
-            </li>
-            <li>
-              {" "}
-              This discovery propelled me to explore microbial mechanisms for
-              atmospheric CO₂ capture. Despite their promising impact on the
-              climate, many startups in this sphere struggle to scale due to
-              capital constraints. I see an opportunity to change that by
-              helping them generate carbon credits for every ton of CO₂ they
-              mitigate, using tools that quantify CO₂ sequestration. This
-              realization drives me to delve deeper into genetics and systems
-              biology, determined to do whatever it takes to turn this concept
-              into reality.
-            </li>
-          </ul>
           <p className="text-[1.2rem] mb-2 capitalize mx-auto w-[90vw] lg:w-[60rem] md:text-[1.7rem] mt-5">
-            Meeting my Co-Founder, Viv -
+            Meeting Viv (Vivasvan Krishna) -
           </p>
           <ul className="space-y-4 text-left text-[.9rem] md:text-[1.1rem] w-[90vw] lg:w-[60rem] mx-auto">
             <li>
@@ -350,8 +341,8 @@ const WorkProfile = () => {
 
             <li>
               <>
-                He then introduced me to Viv (Vivasvan Krishna), and we quickly
-                met for a discussion regarding the work. We worked on{" "}
+                He then introduced me to Viv, and we quickly met for a
+                discussion regarding the work. We worked on{" "}
                 <a
                   href="https://www.toonsutra.com"
                   className="underline italic font-serif"
@@ -371,8 +362,7 @@ const WorkProfile = () => {
               </>
             </li>
             <li>
-              Over time, we continued collaborating on multiple projects,
-              notably{" "}
+              Over time, we continued working on multiple projects, notably{" "}
               <a
                 href="https://www.pinklistindia.com/pinksabha"
                 className="underline italic font-serif"
@@ -381,7 +371,9 @@ const WorkProfile = () => {
               >
                 Pinklist's Pinksabha
               </a>
-              , and participated in the EMC Glocal Pitch Competition by{" "}
+              - it is an interactive platform that empowers users to explore the
+              stances of 161 Lok Sabha MPs on LGBTQIA+ issues. Additionally, we
+              participated in the EMC Glocal Pitch Competition by{" "}
               <a
                 href="https://www.musashino-u.ac.jp/english/"
                 className="underline italic font-serif"
@@ -394,26 +386,88 @@ const WorkProfile = () => {
               privacy-first note-taking app with on-device AI to an audience of
               Indian and Japanese professors.
             </li>
+            <li className="flex flex-col md:flex-row gap-10 justify-center items-center">
+              <div className="w-[90vw] md:w-[25rem]">
+                <img className="rounded-xl  " src="/assets/jp.jpg" />
+                <span className="text-[.75rem]  w-[90vw] md:w-[25rem]  mt-2 text-white/80">
+                  Musashino University x IIT Hyderabad.
+                </span>
+              </div>
+            </li>
             <li>
               Despite never meeting in person, our friendship grew stronger
               while working together. I stayed in touch with him even while
               working on Picapool. It was during this time that my
               entrepreneurial passion ignited, and I conveyed to Viv my intent
-              to start something new—something he was excited to be a part of.
-              We discussed my interest in sustainability, explored other
-              potential fields for innovation, and brainstormed ideas. Our
-              ideation sessions, combined with an open offer from a carbon
-              credit trader, helped us navigate the complexities of the carbon
-              credit market and the sustainability policies of nations globally.
+              to start something new and something he was excited to be a part
+              of. We discussed my interest in sustainability, explored and
+              brainstormed ideas. Our ideation sessions, combined with an open
+              offer from a carbon credit trader from Switzerland, helped us
+              navigate the complexities of the carbon credit market and the
+              sustainability policies of nations globally and that's how Carbon
+              Earth was born.
             </li>
 
-            {/* <li>
-            One thing I liked about him is that, even though he's much better
-            than me in many aspects, he never tries to complement me. Instead,
-            he reminds me that I’m already whole in my own way. That approach
-            gave me the freedom to grow, learn, and improve myself without
-            feeling overshadowed.
-          </li> */}
+            <li>
+              One thing I liked about him is that, even though he's much better
+              than me in many aspects, he never tries to complement me. Instead,
+              he reminds me that I’m already whole in my own way. That approach
+              gave me the freedom to grow, learn, and improve myself without
+              feeling overshadowed.
+            </li>
+          </ul>
+          <p className="text-[1.2rem] mb-2 capitalize mx-auto w-[90vw] lg:w-[60rem] md:text-[1.7rem] mt-5">
+            Inter IIT Tech Meet
+          </p>
+          <ul className="space-y-4 text-left text-[.9rem] md:text-[1.1rem] w-[90vw] lg:w-[60rem] mx-auto">
+            <li className="">
+              Just recently, in December 2024, I led a 7-member team at the
+              Inter IIT Tech Meet, representing my college at IIT Bombay. We
+              presented a solution for the Indian Space Research Organisation
+              challenge and developed a Google Earth equivalent for the Moon.
+            </li>
+            <li className="flex flex-col md:flex-row gap-10 justify-center items-center">
+              <div className="w-[90vw] md:w-[21rem]">
+                <img className="rounded-xl  " src="/assets/isro-day.jpg" />
+                <span className="text-[.75rem]  w-[90vw] md:w-[25rem]  mt-2 text-white/80">
+                  Day of presentation.
+                </span>
+              </div>
+              <div className="w-[90vw] md:w-[21rem]">
+                <img className="rounded-xl  " src="/assets/isro-t.jpg" />
+                <span className="text-[.75rem]  w-[90vw] md:w-[25rem]  mt-2 text-white/80">
+                  My team.
+                </span>
+              </div>
+              <div className="w-[90vw] md:w-[14rem] my-2">
+                <img className="rounded-xl  " src="/assets/inter-iit-win.jpg" />
+                <span className="text-[.75rem]  w-[90vw] md:w-[15rem]  mt-2 text-white/80">
+                  IIT Hyderabad's trophies.
+                </span>
+              </div>
+            </li>
+            <li>
+              {" "}
+              During the same event, I had the opportunity to present Carbon
+              Earth at the Pan IIT Tech Expo, where I encountered a startup born
+              out of a biotechnology club. They had engineered a bioorganism
+              capable of capturing atmospheric CO₂ and rapidly converting it
+              into limestone. I was blown away when I realized the potential of
+              this field to radically transform the world and improve people's
+              lives.
+            </li>
+            <li>
+              {" "}
+              This discovery pushed me to explore not only microbial but also
+              terrain and marine mechanisms for CO₂ capture. Despite their
+              promising impact on the climate, many startups in this sphere
+              struggle to scale due to capital constraints. I see an opportunity
+              to change that by helping them generate carbon credits for every
+              ton of CO₂ they mitigate, using tools that quantify CO₂
+              sequestration. This realization drives me to delve deeper into
+              genetics and systems biology, determined to do whatever it takes
+              to turn this concept into reality.
+            </li>
           </ul>
 
           <p className="text-[1.2rem] mb-2 capitalize mx-auto w-[90vw] lg:w-[60rem] md:text-[1.7rem] mt-5">

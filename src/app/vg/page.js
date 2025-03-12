@@ -1,78 +1,7 @@
-import WorkExperience from "../../components/WorkExperience";
-
 const WorkProfile = () => {
-  const experiences = [
-    {
-      company: "Carbon Earth",
-      role: "Founder & CEO",
-      description:
-        "Building an end-to-end, self-sustaining ecosystem bridging industries and green projects.",
-      achievements: [
-        "Developed AI-powered carbon accounting software for tracking and reporting carbon emissions.",
-        "Enabled accurate carbon credit generation for industries through AI-powered tracking solutions.",
-        "Created waste management solutions converting agricultural and poultry waste into biochar, generating carbon credits to promote sustainability.",
-        "Positioned Carbon Earth as a leader in sustainability and carbon finance solutions.",
-      ],
-      startDate: "2024",
-      endDate: "Present",
-      location: "Global",
-      logo: "/assets/ce.png",
-    },
-    {
-      company: "Tavrin",
-      role: "Founder & Product Lead",
-      description:
-        "Built an AI-powered SaaS platform that doubled campaign volume while reducing manual effort by 70%.",
-      achievements: [
-        "Developed an influencer discovery tool that improved accuracy by 30% and scaled outreach to 1,000+ influencers.",
-        "Hired, managed, and led a high-performing team of IIT alums with experience at Salesforce, ABB, and Blackstone.",
-        "Leveraged 10M+ influencer profiles with advanced analytics to improve selection accuracy and ROI.",
-        "Invited to the World Economic Forum in Davos 2024 with a team.",
-      ],
-      startDate: "2022",
-      endDate: "2024",
-      location: "Global",
-      logo: "/assets/tavrin.png",
-    },
-    {
-      company: "Concreate Technologies - Vivly",
-      role: "Founder & CEO",
-      description:
-        "From global giants to game-changing startups, we delivered innovative, results-driven solutions that turn visions into reality.",
-      achievements: [
-        "Currently working on a Carbon Accounting platform for industries and sustainable projects.",
-        "Built an influencer marketing & analytics suite to automate campaign management, reducing workload by 70%.",
-        "Partnered with Viagogo to deliver scalable ticketing solutions that enabled high-volume sales, achieving up to 25x returns during major events.",
-        "Developed an enterprise-grade procurement tool for vendor sourcing and contract workflows.",
-        "Recognized as a World Economic Forum Hotel Badge Holder in Davos, 2023.",
-      ],
-      startDate: "2022",
-      endDate: "Present",
-      location: "Global",
-      logo: "/assets/vivly.png",
-    },
-    {
-      company: "Atrillu",
-      role: "Founder & CEO",
-      description:
-        "Led AI-powered marketing, logistics, and digital media innovations, impacting major brands and platforms.",
-      achievements: [
-        "Collaborated with Harshil Karia (Founder of Schbang) to develop AI-driven marketing solutions that optimized marketing ROI by 20%.",
-        "Developed an AI-powered competitor ad tracking and analytics tool for brands like Amazon Prime and HDFC Life.",
-        "Created a medical logistics platform to streamline procurement and distribution for Medicento, playing a critical role in COVID-19 supply chain management.",
-        "Launched PinkList India, an LGBTQ+ political advocacy platform, with Anish Gawande.",
-        "Developed Toonsutra.com, which surpassed 1M+ downloads as a leading Indian comics and graphic novel platform.",
-      ],
-      startDate: "2019",
-      endDate: "2022",
-      location: "Global",
-      logo: "https://media.licdn.com/dms/image/v2/C4D0BAQHWlc-jnpp5sw/company-logo_200_200/company-logo_200_200/0/1630579014501?e=1749081600&v=beta&t=Pn0Ka6edpBBgzNGhPFoNNRfMCAub_g5_Nily6wyn5eE",
-    },
-  ];
-
   return (
     <div className="flex bg-black flex-col items-center justify-center ">
-      <div className="bg-black text-white min-h-screen flex justify-center items-center md:p-6">
+      <div className="bg-black text-white min-h-[80vh] flex justify-center items-center md:p-6">
         <div className="w-[90vw] md:max-w-6xl mx-auto md:p-8 rounded-lg flex flex-col-reverse md:flex-row items-center md:items-start">
           {/* Left Section - Text Content */}
           <div className="w-full md:w-2/3 text-left">
@@ -83,22 +12,17 @@ const WorkProfile = () => {
               Serial Entrepreneur & Angel Investor
             </h3>
             <p className="mt-4 text-gray-300 text-sm sm:text-base leading-relaxed">
-              I'm a boundary-pushing entrepreneur and angel investor with 7+
-              years of experience weaving together AI/ML innovation,
-              sustainability, and strategic partnerships.
+              I am a relentless leader, entrepreneur, and strategist with a
+              strong foundation in international business, product and business
+              development, marketing, and business turnarounds. My expertise
+              lies in building future-focused ecosystems through strategic
+              partnerships and building high-performing teams.
             </p>
             <p className="mt-2 text-gray-300 text-sm sm:text-base leading-relaxed">
-              I’ve led cross-functional teams of up to 20 professionals across
-              engineering, design, sales, and corporate finance at global firms
-              such as Blackstone, Salesforce, and ABB.
-            </p>
-            <p className="mt-2 text-gray-300 text-sm sm:text-base leading-relaxed">
-              Over the years, I’ve launched multiple platforms and built an
-              international network of investors, founders, and CEOs.
-            </p>
-            <p className="mt-2 text-gray-300 text-sm sm:text-base leading-relaxed">
-              My focus is on leveraging technology and capital to spur growth,
-              create lasting value, and drive transformative change.
+              An avid reader, athlete, and comic enthusiast, I apply the same
+              principles of discipline, resilience, and adaptability both on and
+              off the field. Invited twice as a World Economic Forum Hotel Badge
+              Holder in Davos, Switzerland, in 2023 and 2024.
             </p>
 
             {/* Contact Section */}
@@ -142,7 +66,7 @@ const WorkProfile = () => {
       <div className="pb-2 text-white/80 relative flex items-center justify-center">
         <div className=" z-[1000]">
           <h1 className="text-[1.2rem] underline mb-10 mx-auto text-center md:text-[1.7rem] mt-5">
-            Why I choose Entrepreneurship.{" "}
+            My Journey.{" "}
           </h1>
           <p className="text-[1.2rem] mb-2 capitalize mx-auto w-[90vw] lg:w-[60rem] md:text-[1.7rem] mt-5">
             How It All Began -
@@ -184,52 +108,48 @@ const WorkProfile = () => {
               <>
                 Despite massive logistical challenges trucks getting stuck,
                 halted rail services, and unpredictable government regulations,
-                we found ways to navigate through the chaos. Working with
-                Atrillu, we helped distribute masks, surgical masks, and PPE
-                kits by partnering with 3M across Telangana, Andhra Pradesh, and
-                Tamil Nadu. Every successful delivery meant a hospital getting
-                much-needed protective gear or a family staying safe. It was
-                intense, exhausting, but deeply fulfilling.
+                we found ways to navigate through the chaos. We helped in
+                distrubution of medical supplies to multiple hospitals and
+                clinics across Karnataka, Andhra Pradesh, and Tamil Nadu,
+                ensuring timely delivery and inventory availability during a
+                period of unprecedented demand. It was intense, exhausting, but
+                deeply fulfilling.
               </>
             </li>
           </ul>
 
           <p className="text-[1.2rem] capitalize mb-2 mx-auto w-[90vw] lg:w-[60rem] md:text-[1.7rem] mt-5">
-            Falling in love with my work -
+            Building My Network -
           </p>
           <ul className="space-y-4 text-left text-[.9rem] md:text-[1.1rem] w-[90vw] lg:w-[60rem] mx-auto">
             <li className="">
-              I met Harshil Karia, who was working at a Swedish company, Proof
-              Analytics. He had ambitious ideas for improving their system, but
-              their leadership was resistant to change. Frustrated, he left and
-              joined us to start Pensive.
+              I worked alongside a small team with Harshil Karia (Founder of
+              Schbang, 2020-21) to develop Pensive, an AI-powered Automated
+              Marketing Mix Modeling (AMMM) solution. Pensive was built with a
+              simple but powerful goal: help companies allocate their marketing
+              budgets more effectively using data analytics. Which they have
+              used to optimize their ad spends at scale for their clients HDFC
+              Life Insurance, Amazon, Mahindra, Baskin Robbins, Daniel
+              Wellington, and many more.
             </li>
 
             <li className="">
-              Pensive was built with a simple but powerful goal: help companies
-              allocate their marketing budgets more effectively using data
-              analytics. We expanded into Amazon’s ad tracking ecosystem,
-              helping brands optimize their ad spends at scale.
+              We then worked with Anish Gawande, Indian National Congress Party
+              member, and LGBTQ+ spokesperson who was the founder of Pinklist
+              (country's first archive of politicians supporting LGBTQIA+
+              rights). We created Pinksabha an extension to the Pinklist India -
+              it is an interactive platform that empowers users to explore the
+              stances of 161 Lok Sabha MPs on LGBTQIA+ issues. Using a map and
+              search tools, visitors can locate their constituency, discover
+              which MPs have spoken up, and access detailed report cards to
+              evaluate their advocacy and actions on LGBTQIA+ rights
             </li>
 
             <li className="">
-              <>
-                As influencer marketing exploded, we saw a massive inefficiency.
-                Companies were constantly hiring and firing teams based on
-                fluctuating campaign demands. The process was chaotic and
-                inefficient.
-              </>
-            </li>
-            <li className="">
-              <>
-                We build a fully automated, enterprise-level influencer
-                marketing platform. We built an MVP that was even used by
-                Sociowash, a Delhi-based agency, to run marketing campaigns for
-                their client, Urbanic, for two months.
-              </>
-            </li>
-            <li className="">
-              <>Unfortunately. we decided to shut it down.</>
+              Finally, we built the website Toonsutra.com in 2023, which has
+              since evolved into India's first webtoon comics app. Today,
+              Toonsutra has surpassed 1 million app downloads on the Play Store
+              and recently secured $3.2 million in funding.
             </li>
           </ul>
         </div>

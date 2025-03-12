@@ -135,11 +135,11 @@ export default function Home() {
                 alt="Client Logo"
                 className="w-[8rem] md:w-[15rem] rounded-xl"
               />
-              <img
+              {/* <img
                 src="https://play-lh.googleusercontent.com/__epMJq_flh2jLnFwCmBt4lHL3FkYvQDj6dZ2yIOvYK2tdruQ8I7PWYvkXi5hJQMxuo"
                 alt="Client Logo"
                 className="w-[8rem] md:w-[15rem] rounded-xl"
-              />
+              /> */}
               <div className="flex md:w-[15rem] flex-col">
                 <img
                   src="https://www.carbon.earth/assets/logo.png"
@@ -213,6 +213,62 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <div className="bg-black ">
+          <h1 className=" text-white text-center pt-16 text-4xl font-bold">
+            {" "}
+            Team
+          </h1>
+          <div className="flex flex-col lg:flex-row justify-center gap-32 mt-10 items-center p-10">
+            <div className="flex py-3 bg-gray-900 shadow-xl rounded-xl text-white flex-col justify-center items-center w-[80vw] md:w-[20rem]">
+              <img
+                className="rounded-xl w-[14rem] h-[15rem]"
+                src="/assets/f2.png"
+              />
+              <h1 className="text-[1.2rem] md:text-[1.7rem] mt-5">
+                {" "}
+                Vivasvan Gadepalli
+              </h1>
+              <p className="text-center mb-5 text-[1rem] font-semibold md:text-[1.3rem]">
+                Co-Founder
+              </p>
+              <div className="flex flex-col items-center justify-left">
+                <a
+                  href="/vg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className=" flex items-center text-cyan-500 underline hover:text-cyan-300"
+                >
+                  {/* <FaLinkedin className="mr-2" /> */}
+                  Know More
+                </a>
+              </div>
+            </div>
+            <div className="flex py-3 bg-gray-900 shadow-xl rounded-xl text-white flex-col justify-center items-center w-[80vw] md:w-[20rem]">
+              <img
+                className="rounded-xl w-[11rem] h-[15rem]"
+                src="/assets/jb-wild-pic.jpg"
+              />
+              <h1 className="text-[1.2rem] md:text-[1.7rem] mt-5">
+                Jaswanth Beere
+              </h1>
+              <p className="text-center mb-5 text-[1rem] font-semibold md:text-[1.3rem]">
+                Co-Founder
+              </p>
+              <div className="flex flex-col items-center justify-center">
+                <a
+                  href="/jb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className=" flex items-center text-cyan-500 underline hover:text-cyan-300"
+                >
+                  {/* <FaLinkedin className="mr-2" /> */}
+                  Know More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <hr className="w-[90vw] tet text-white/30 mx-auto pb-5" />
 
