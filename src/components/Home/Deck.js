@@ -24,7 +24,7 @@ const Deck = () => {
             Carbon Earth
           </h1>
           <Card
-            imageUrl="https://www.carbon.earth/assets/logo.png"
+            imageUrl="https://www.carbon.earth/assets/ce.png"
             websiteLink="https://www.carbon.earth/"
             title=""
             description2="Building a real-time AR for smart agriculture & forestry. Software that captures videos of specific crops or fields, processes the data to create a digital twin, and uses AI for analysis. By integrating visual data, satellite imagery, and geolocation, the system can estimate biomass, assess crop damage, monitor encroachment, track wildfire risks, and detect illegal logging in real-time. This technology will be accessible via an Android app and drones, providing farmers and authorities with actionable insights."

@@ -70,7 +70,7 @@ export default function Home() {
             <div className="grid grid-cols-2 md:hidden  gap-5 mx-auto">
               <div className="flex md:w-[15rem] flex-col">
                 <img
-                  src="https://www.carbon.earth/assets/logo.png"
+                  src="https://www.carbon.earth/assets/ce.png"
                   alt="Carbon Earth"
                   className="w-[8rem] bg-black md:w-[15rem] md:h-[15rem] rounded-xl"
                 />
@@ -107,7 +107,7 @@ export default function Home() {
             <div className=" md:flex scrollable infinite  gap-5 mx-auto hidden">
               <div className="flex md:w-[15rem] flex-col">
                 <img
-                  src="https://www.carbon.earth/assets/logo.png"
+                  src="https://www.carbon.earth/assets/ce.png"
                   alt="Carbon Earth"
                   className="w-[8rem] bg-black md:w-[15rem] md:h-[15rem] rounded-xl"
                 />
@@ -142,7 +142,7 @@ export default function Home() {
               /> */}
               <div className="flex md:w-[15rem] flex-col">
                 <img
-                  src="https://www.carbon.earth/assets/logo.png"
+                  src="https://www.carbon.earth/assets/ce.png"
                   alt="Carbon Earth"
                   className="w-[8rem] bg-black md:w-[15rem] md:h-[15rem] rounded-xl"
                 />
@@ -177,7 +177,7 @@ export default function Home() {
               />
               <div className="flex md:w-[15rem] flex-col">
                 <img
-                  src="https://www.carbon.earth/assets/logo.png"
+                  src="https://www.carbon.earth/assets/ce.png"
                   alt="Carbon Earth"
                   className="w-[8rem] bg-black md:w-[15rem] md:h-[15rem] rounded-xl"
                 />
