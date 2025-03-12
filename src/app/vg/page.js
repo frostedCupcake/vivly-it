@@ -150,19 +150,19 @@ export default function Timeline() {
         </div>
       </div>
       <div className="max-w-4xl mx-auto mt-10">
-        <h1 className="text-4xl font-bold text-center mb-12">
+        <h1 className="text-2xl md:text-3xl xl:text-4xl font-bold text-center mb-12">
           My Entrepreneurship Journey
         </h1>
         <div className="relative">
-          <div className="absolute left-4 h-full border-l-2 border-gray-600 "></div>
+          <div className="absolute left-2 md:left-4 h-full border-l-2 border-gray-600 "></div>
 
           {timelineData.map((event, index) => (
             <div
               key={index}
               className={`mb-8 flex justify-between items-center w-full md:flex-row }`}
             >
-              <div className="z-20 -mr-10 bg-gray-900 shadow-xl w-8 h-8 rounded-full border-4 border-indigo-500"></div>
-              <div className=" bg-gray-800 rounded-lg shadow-xl px-4 py-4 w-[60vw]">
+              <div className="z-20 -mr-10 bg-gray-900 shadow-xl w-4 md:w-8 h-4 md:h-8 rounded-full border-4 border-indigo-500"></div>
+              <div className=" bg-gray-800 rounded-lg shadow-xl px-4 py-4 w-[80vw] lg:w-[60vw]">
                 <h3 className="mb-1 font-bold text-lg text-indigo-400">
                   {event.year}
                 </h3>

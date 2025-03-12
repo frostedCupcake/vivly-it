@@ -25,7 +25,7 @@ export default function Home() {
             </div>
             <div className="md:w-1/3 mx-auto md:ml-auto">
               <img
-                src="/assets/vivly.png"
+                src="/assets/logo-re.png"
                 alt="vivly brand logo"
                 className="w-[13rem]  md:w-[20rem] ml-auto rounded-xl animate-oscillate"
               />
@@ -237,7 +237,7 @@ export default function Home() {
                   href="/vg"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className=" flex items-center text-cyan-500 underline hover:text-cyan-300"
+                  className=" flex items-center bg-white/50 p-2 rounded-xl hover:bg-white/60 transition-all"
                 >
                   {/* <FaLinkedin className="mr-2" /> */}
                   Know More
@@ -260,7 +260,7 @@ export default function Home() {
                   href="/jb"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className=" flex items-center text-cyan-500 underline hover:text-cyan-300"
+                  className=" flex items-center bg-white/50 p-2 rounded-xl hover:bg-white/60 transition-all"
                 >
                   {/* <FaLinkedin className="mr-2" /> */}
                   Know More

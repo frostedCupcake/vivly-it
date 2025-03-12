@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="text-xl md:text-2xl font-bold flex items-center gap-2">
           <a href="/">
             <img
-              src="/assets/vivly.png"
+              src="/assets/logo-re.png"
               alt="vivly brand logo"
               className="w-[2rem] md:w-[3rem] mx-auto rounded-xl "
             />
@@ -45,6 +45,11 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">
           <li>
+            <a href="/" className="hover:underline">
+              Home
+            </a>
+          </li>
+          <li>
             <a href="/services" className="hover:underline">
               Services
             </a>
@@ -70,6 +75,11 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden">
           <ul className="flex flex-col space-y-4 px-4 py-6">
+            <li>
+              <a href="/" className="hover:underline">
+                Home
+              </a>
+            </li>
             <li>
               <a href="/services" className="hover:underline">
                 Services

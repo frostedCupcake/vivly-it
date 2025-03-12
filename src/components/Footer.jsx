@@ -9,7 +9,7 @@ const Footer = () => {
         {/* Logo and Branding */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left mb-6 md:mb-0">
           <img
-            src="/assets/vivly.png"
+            src="/assets/logo-re.png"
             alt="vivly brand logo"
             className="w-16 rounded-xl shadow-lg mb-2"
           />
