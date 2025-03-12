@@ -20,7 +20,7 @@ const timelineData = [
       "Despite our initial progress, we faced significant logistical hurdles. Managing accountability and tracking personnel was becoming increasingly difficult, as our method relied heavily on manual calls and Excel sheets. Without a dedicated application to streamline this process, we struggled to maintain efficiency. Consequently, we decided to pause the project temporarily.",
   },
   {
-    year: "2019",
+    year: "",
     title: "Internships at Savari & Avalon Labs",
     description:
       "To further develop my skills, I interned at different firms from Savari(Vehicle2X technology) to Avalon Labs, a micro venture capital and service-based firm. This role provided firsthand experience observing entrepreneurs and their operational pace, teaching me the commitments required to build successful ventures.",
