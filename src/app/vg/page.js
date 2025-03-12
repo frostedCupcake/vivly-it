@@ -74,18 +74,13 @@ const timelineData = [
     year: "2022 - 2024",
     title: "Influencer Marketing Campaign Tool",
     description:
-      "I've lead a high-caliber team of engineers and designers, many of whom are IIT alumni, who have previously worked at Salesforce, Blackstone Group, Arcesium (a D.E. Shaw Group venture), and other leading global firms. We succesfully built an working MVP of our Idea without any AI. We partnered with Sociowatch, a Delhi-based agency, to test our system and run an automated campaign for Urbanic, an Indian fashion brand. We ran the campaign for two months, gathered real-time insights, and identified key challenges.  I then realized payments happen at a very slow rate, and we decided to pause the project.",
+      "I've lead a high-caliber team of engineers and designers, many of whom are IIT alumni, who have previously worked at Salesforce, Blackstone Group, Arcesium, and other leading global firms. We succesfully built an working MVP of our Idea without any AI. We partnered with Sociowatch, a Delhi-based agency, to test our system and run an automated campaign for Urbanic, an Indian fashion brand. We ran the campaign for two months, gathered real-time insights, and identified key challenges.  I then realized payments happen at a very slow rate, and we decided to pause the project.",
   },
 
   {
     year: "2025",
     title: "",
     description: "I'm working on some cool stuff with Jaswanth.",
-  },
-  {
-    year: "",
-    title: "",
-    description: "",
   },
 ];
 
