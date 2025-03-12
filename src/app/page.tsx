@@ -20,7 +20,7 @@ export default function Home() {
               <p className="text-[1rem] leading-relaxed md:text-[1.1rem] italic text-white text-justify md:text-left">
                 From global giants to game-changing startups, we deliver
                 innovative, results-driven solutions that turn visions into
-                reality—explore how we can redefine your success.
+                reality. Explore how we can redefine your success.
               </p>
             </div>
             <div className="md:w-1/3 mx-auto md:ml-auto">
@@ -60,6 +60,61 @@ export default function Home() {
           </div>
         </section>
         {/* <Deck /> */}
+        <div className="bg-black ">
+          <h1 className=" text-white text-center pt-16 text-4xl font-bold">
+            {" "}
+            Team
+          </h1>
+          <div className="flex flex-col lg:flex-row justify-center gap-32 mt-10 items-center p-10">
+            <div className="flex py-3 bg-gray-900 shadow-xl rounded-xl text-white flex-col justify-center items-center w-[80vw] md:w-[20rem]">
+              <img
+                className="rounded-xl w-[14rem] h-[15rem]"
+                src="/assets/f2.png"
+              />
+              <h1 className="text-[1.2rem] md:text-[1.7rem] mt-5">
+                {" "}
+                Vivasvan Gadepalli
+              </h1>
+              <p className="text-center mb-5 text-[1rem] font-semibold md:text-[1.3rem]">
+                Co-Founder
+              </p>
+              <div className="flex flex-col items-center justify-left">
+                <a
+                  href="/vg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className=" flex items-center text-black bg-white/90 p-2 rounded-xl hover:bg-white transition-all"
+                >
+                  {/* <FaLinkedin className="mr-2" /> */}
+                  Know More
+                </a>
+              </div>
+            </div>
+            <div className="flex py-3 bg-gray-900 shadow-xl rounded-xl text-white flex-col justify-center items-center w-[80vw] md:w-[20rem]">
+              <img
+                className="rounded-xl w-[11rem] h-[15rem]"
+                src="/assets/jb-wild-pic.jpg"
+              />
+              <h1 className="text-[1.2rem] md:text-[1.7rem] mt-5">
+                Jaswanth Beere
+              </h1>
+              <p className="text-center mb-5 text-[1rem] font-semibold md:text-[1.3rem]">
+                Co-Founder
+              </p>
+              <div className="flex flex-col items-center justify-center">
+                <a
+                  href="/jb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className=" flex items-center text-black bg-white/90 p-2 rounded-xl hover:bg-white transition-all"
+                >
+                  {/* <FaLinkedin className="mr-2" /> */}
+                  Know More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
 
         {/* Trusted By Section */}
         <section className="relative bg-black px-4 py-10">
@@ -213,62 +268,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-        <div className="bg-black ">
-          <h1 className=" text-white text-center pt-16 text-4xl font-bold">
-            {" "}
-            Team
-          </h1>
-          <div className="flex flex-col lg:flex-row justify-center gap-32 mt-10 items-center p-10">
-            <div className="flex py-3 bg-gray-900 shadow-xl rounded-xl text-white flex-col justify-center items-center w-[80vw] md:w-[20rem]">
-              <img
-                className="rounded-xl w-[14rem] h-[15rem]"
-                src="/assets/f2.png"
-              />
-              <h1 className="text-[1.2rem] md:text-[1.7rem] mt-5">
-                {" "}
-                Vivasvan Gadepalli
-              </h1>
-              <p className="text-center mb-5 text-[1rem] font-semibold md:text-[1.3rem]">
-                Co-Founder
-              </p>
-              <div className="flex flex-col items-center justify-left">
-                <a
-                  href="/vg"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className=" flex items-center bg-white/50 p-2 rounded-xl hover:bg-white/60 transition-all"
-                >
-                  {/* <FaLinkedin className="mr-2" /> */}
-                  Know More
-                </a>
-              </div>
-            </div>
-            <div className="flex py-3 bg-gray-900 shadow-xl rounded-xl text-white flex-col justify-center items-center w-[80vw] md:w-[20rem]">
-              <img
-                className="rounded-xl w-[11rem] h-[15rem]"
-                src="/assets/jb-wild-pic.jpg"
-              />
-              <h1 className="text-[1.2rem] md:text-[1.7rem] mt-5">
-                Jaswanth Beere
-              </h1>
-              <p className="text-center mb-5 text-[1rem] font-semibold md:text-[1.3rem]">
-                Co-Founder
-              </p>
-              <div className="flex flex-col items-center justify-center">
-                <a
-                  href="/jb"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className=" flex items-center bg-white/50 p-2 rounded-xl hover:bg-white/60 transition-all"
-                >
-                  {/* <FaLinkedin className="mr-2" /> */}
-                  Know More
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
 
         <hr className="w-[90vw] tet text-white/30 mx-auto pb-5" />
 
